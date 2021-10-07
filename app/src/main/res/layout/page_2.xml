@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page_2">
+
+    <include
+        android:id="@+id/clude_2"
+        layout="@layout/tolbar_start" ></include>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more012"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rv_color="@color/color30day"
+                rv_zoom="true"
+                rv_centered="true">
+
+    <Button
+        android:layout_width="@dimen/btn_w"
+        android:layout_height="@dimen/btn_h"
+        android:background="@drawable/sport_1"
+        android:textColor="@color/text_color_1"
+        android:textSize="60sp"
+        android:text="@string/text_sport"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/sport_start"/>
+
+            </com.andexert.library.RippleView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more011"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            rv_color="@color/color30day"
+            rv_zoom="true"
+            rv_centered="true">
+
+            <Button
+                android:layout_width="@dimen/btn_w"
+                android:layout_height="@dimen/btn_h"
+                android:background="@drawable/food_1"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color_1"
+            android:textSize="60sp"
+            android:gravity="center"
+            android:text="@string/text_Nutrition"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="12dp"
+            android:id="@+id/im_001"/>
+
+        </com.andexert.library.RippleView>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/shodw_sport_me_start2"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

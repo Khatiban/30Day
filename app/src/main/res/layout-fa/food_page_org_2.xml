@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/text_color_2"
+    android:id="@+id/alakiha_25">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_sport"
+        android:id="@+id/alakiha_24">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/color30day"
+            android:id="@+id/btn_serch">
+
+
+
+            <ImageView
+                android:id="@+id/imageView_search_1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/search_1" />
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/food_search_text"
+                android:textColor="@color/text_color_2"
+                android:textSize="16dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/txt_ser"/>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+            android:paddingRight="5dp"
+        android:orientation="horizontal"
+            android:background="@drawable/sport_me_backg_music_on">
+
+        <com.android.fury.a30day.Font_text.Font
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/food_Calorie_food"
+            android:textColor="@color/text_color_2"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="right|center_vertical"
+            android:id="@+id/food_Calorie_food"/>
+
+
+
+        <com.android.fury.a30day.Font_text.Font
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/food_Calorie_food_size"
+            android:gravity="center"
+            android:textColor="@color/text_color_2"
+            android:id="@+id/food_Calorie_food_size"
+            android:layout_toLeftOf="@+id/food_Calorie_food"
+            android:layout_toRightOf="@+id/food_Calorie_food_caleri"/>
+
+        <com.android.fury.a30day.Font_text.Font
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="@string/food_Calorie_food_caleri"
+            android:gravity="right|center_vertical"
+            android:textColor="@color/text_color_2"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/food_Calorie_food_caleri"/>
+    </RelativeLayout>
+
+        <ListView
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/listview"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@color/float_transparent"
+            android:textFilterEnabled="true"
+            android:dividerHeight="1dp">
+
+        </ListView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>

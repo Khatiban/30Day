@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/clude_1"
+        layout="@layout/tolbar_start_3" ></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/clude_1"
+        android:id="@+id/scrollView2"
+        android:layout_centerHorizontal="true"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_body">
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                android:layout_marginBottom="@dimen/cardMarginVertical"
+                android:layout_marginLeft="@dimen/cardMarginHorizontal"
+                android:layout_marginRight="@dimen/cardMarginHorizontal"
+                android:layout_marginTop="@dimen/cardMarginVertical"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp"
+                app:cardBackgroundColor="@color/text_color_2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day"
+                        android:textSize="20sp"
+                        android:id="@+id/txt_hide_food_m_p_10_4_1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/food_male_plan_10_24"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/food_male_plan_10_21_1"
+                        android:textColor="@color/color30day_hide"
+                        android:layout_below="@+id/txt_hide_food_m_p_10_4_1"
+                        android:textSize="17sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/txt_hide_food_m_p_10_4_1"
+                        android:text="20"
+                        android:id="@+id/txt_food_m_p_fat_1"
+                        android:layout_marginRight="10dp"
+                        android:textSize="20dp"
+                        android:layout_marginTop="5dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/txt_food_m_p_fat_1"
+                        android:text="@string/food_cm"
+                        android:layout_marginRight="10dp"
+                        android:textSize="8dp"
+                        android:layout_marginTop="0dp" />
+
+                    <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/seekbar_m_p_fat"
+                        android:layout_below="@+id/txt_food_m_p_fat_1"
+                        app:dsb_allowTrackClickToDrag="true"
+                        app:dsb_min="20"
+                        app:dsb_max="50"
+                        app:dsb_indicatorTextAppearance="@color/text_color_2"
+                        app:dsb_progressColor="@color/color30day"
+                        app:dsb_trackColor="@color/background_sport"
+                        app:dsb_indicatorColor="@color/color30day"
+                        app:dsb_rippleColor="@color/background_sport"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/food_male_plan_10_15"
+                        android:textColor="@color/color30day_hide"
+                        android:layout_below="@+id/seekbar_m_p_fat"
+                        android:textSize="17sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/seekbar_m_p_fat"
+                        android:text="50"
+                        android:id="@+id/txt_food_m_p_fat_b_1"
+                        android:layout_marginRight="10dp"
+                        android:textSize="20dp"
+                        android:layout_marginTop="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/txt_food_m_p_fat_b_1"
+                        android:text="@string/food_cm"
+                        android:layout_marginRight="10dp"
+                        android:textSize="8dp"
+                        android:layout_marginTop="0dp" />
+
+                    <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/seekbar_m_p_fat2"
+                        android:layout_below="@+id/txt_food_m_p_fat_b_1"
+                        app:dsb_allowTrackClickToDrag="true"
+                        app:dsb_min="50"
+                        app:dsb_max="200"
+                        app:dsb_indicatorTextAppearance="@color/text_color_2"
+                        app:dsb_progressColor="@color/color30day"
+                        app:dsb_trackColor="@color/background_sport"
+                        app:dsb_indicatorColor="@color/color30day"
+                        app:dsb_rippleColor="@color/background_sport"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/food_male_plan_10_17"
+                        android:textColor="@color/color30day_hide"
+                        android:layout_below="@+id/seekbar_m_p_fat2"
+                        android:textSize="17sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/seekbar_m_p_fat2"
+                        android:text="30"
+                        android:id="@+id/txt_food_m_p_s_fat_2"
+                        android:layout_marginRight="10dp"
+                        android:textSize="20dp"
+                        android:layout_marginTop="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/txt_food_m_p_s_fat_2"
+                        android:text="@string/food_cm"
+                        android:layout_marginRight="10dp"
+                        android:textSize="8dp"
+                        android:layout_marginTop="0dp" />
+
+                    <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/seekbar_m_p_fat3"
+                        android:layout_below="@+id/txt_food_m_p_s_fat_2"
+                        app:dsb_allowTrackClickToDrag="true"
+                        app:dsb_min="30"
+                        app:dsb_max="120"
+                        app:dsb_indicatorTextAppearance="@color/text_color_2"
+                        app:dsb_progressColor="@color/color30day"
+                        app:dsb_trackColor="@color/background_sport"
+                        app:dsb_indicatorColor="@color/color30day"
+                        app:dsb_rippleColor="@color/background_sport"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/food_male_plan_10_27"
+                        android:textColor="@color/color30day_hide"
+                        android:layout_below="@+id/seekbar_m_p_fat3"
+                        android:textSize="17sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/seekbar_m_p_fat3"
+                        android:text="10"
+                        android:id="@+id/txt_food_m_p_s_fat_3"
+                        android:layout_marginRight="10dp"
+                        android:textSize="20dp"
+                        android:layout_marginTop="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/txt_food_m_p_s_fat_3"
+                        android:text="@string/food_cm"
+                        android:layout_marginRight="10dp"
+                        android:textSize="8dp"
+                        android:layout_marginTop="0dp" />
+
+                    <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/seekbar_m_p_fat4"
+                        android:layout_below="@+id/txt_food_m_p_s_fat_3"
+                        app:dsb_allowTrackClickToDrag="true"
+                        app:dsb_min="10"
+                        app:dsb_max="25"
+                        app:dsb_indicatorTextAppearance="@color/text_color_2"
+                        app:dsb_progressColor="@color/color30day"
+                        app:dsb_trackColor="@color/background_sport"
+                        app:dsb_indicatorColor="@color/color30day"
+                        app:dsb_rippleColor="@color/background_sport"
+                        />
+
+                    <com.andexert.library.RippleView
+                        android:id="@+id/more015"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/seekbar_m_p_fat4"
+                        android:layout_marginLeft="@dimen/cardMarginHorizontal"
+                        android:layout_marginRight="@dimen/cardMarginHorizontal"
+                        android:layout_centerHorizontal="true"
+                        rv_color="@color/color30day"
+                        rv_zoom="true"
+                        app:rv_centered="true"
+                        app:rv_type="doubleRipple">
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/card_view7_bo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/seekbar_m_p_b"
+                            android:layout_marginBottom="20dp"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp"
+                            android:layout_centerHorizontal="true"
+                            app:cardPreventCornerOverlap="false"
+                            app:cardBackgroundColor="@color/color30day">
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/btn_food_body_1"/>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/food_confirm"
+                                android:textColor="@color/text_color_2"
+                                android:layout_marginRight="50dp"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:textSize="16dp"
+                                android:layout_gravity="center"/>
+
+                        </android.support.v7.widget.CardView>
+                    </com.andexert.library.RippleView>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/food_male_plan_10_24"
+                        android:textColor="@color/background_sport"
+                        android:layout_below="@+id/more015"
+                        android:textSize="18dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/txt_food_fat_1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:layout_toRightOf="@+id/txt_food_fat_1"
+                        android:layout_below="@+id/more015"
+                        android:text="@string/food_male_plan_10_6_1_sa"
+                        android:id="@+id/txt_food_m_p_s_fat_h"
+                        android:textSize="15dp"
+                        android:layout_marginTop="8dp" />
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_food_fat_2"
+                        android:textColor="@color/color30day"
+                        android:textSize="15dp"
+                        android:layout_below="@+id/more015"
+                        android:layout_toRightOf="@+id/txt_food_m_p_s_fat_h"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="15dp" />
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day_hide"
+                        android:layout_below="@+id/txt_food_fat_1"
+                        android:textSize="18dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/txt_food_fat_3"
+                        android:layout_marginBottom="20dp"/>
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view5"
+                android:layout_below="@+id/card_view8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                android:layout_marginBottom="@dimen/cardMarginVertical"
+                android:layout_marginLeft="@dimen/cardMarginHorizontal"
+                android:layout_marginRight="@dimen/cardMarginHorizontal"
+                android:layout_marginTop="@dimen/cardMarginVertical"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp"
+                app:cardBackgroundColor="@color/text_color_2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day"
+                        android:textSize="20dp"
+                        android:id="@+id/txt_hide_food_m_p_10_3_1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/food_male_plan_10_20"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/food_male_plan_10_21"
+                        android:textColor="@color/color30day_hide"
+                        android:layout_below="@+id/txt_hide_food_m_p_10_3_1"
+                        android:textSize="17sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/txt_hide_food_m_p_10_3_1"
+                        android:text="10"
+                        android:id="@+id/txt_food_m_p_s_sk_1"
+                        android:layout_marginRight="10dp"
+                        android:textSize="20dp"
+                        android:layout_marginTop="5dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/txt_food_m_p_s_sk_1"
+                        android:text="@string/food_cm"
+                        android:layout_marginRight="10dp"
+                        android:textSize="8dp"
+                        android:layout_marginTop="0dp" />
+
+                    <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/seekbar_m_p_sk"
+                        android:layout_below="@+id/txt_food_m_p_s_sk_1"
+                        app:dsb_allowTrackClickToDrag="true"
+                        app:dsb_min="10"
+                        app:dsb_max="30"
+                        app:dsb_indicatorTextAppearance="@color/text_color_2"
+                        app:dsb_progressColor="@color/color30day"
+                        app:dsb_trackColor="@color/background_sport"
+                        app:dsb_indicatorColor="@color/color30day"
+                        app:dsb_rippleColor="@color/background_sport"
+                        />
+
+
+                    <com.andexert.library.RippleView
+                        android:id="@+id/more016"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/seekbar_m_p_sk"
+                        android:layout_marginLeft="@dimen/cardMarginHorizontal"
+                        android:layout_marginRight="@dimen/cardMarginHorizontal"
+                        android:layout_centerHorizontal="true"
+                        rv_color="@color/color30day"
+                        rv_zoom="true"
+                        app:rv_centered="true"
+                        app:rv_type="doubleRipple">
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/card_view6_bo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/seekbar_m_p_sk"
+                            android:layout_marginBottom="20dp"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp"
+                            android:layout_centerHorizontal="true"
+                            app:cardPreventCornerOverlap="false"
+                            app:cardBackgroundColor="@color/color30day">
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/btn_food_body_2"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/food_confirm"
+                                android:textColor="@color/text_color_2"
+                                android:layout_marginRight="50dp"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:textSize="16dp"
+                                android:layout_gravity="center"/>
+
+                        </android.support.v7.widget.CardView>
+                    </com.andexert.library.RippleView>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/food_male_plan_10_22"
+                        android:textColor="@color/background_sport"
+                        android:layout_below="@+id/more016"
+                        android:textSize="18dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/txt_food_skeleton_1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:layout_toRightOf="@+id/txt_food_skeleton_1"
+                        android:layout_below="@+id/more016"
+                        android:text="@string/food_male_plan_10_6_1_sa"
+                        android:id="@+id/txt_food_m_p_s_b_sk"
+                        android:textSize="15dp"
+                        android:layout_marginTop="8dp" />
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_food_skeleton_2"
+                        android:textColor="@color/color30day"
+                        android:textSize="15dp"
+                        android:layout_below="@+id/more016"
+                        android:layout_toRightOf="@+id/txt_food_m_p_s_b_sk"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="15dp" />
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day_hide"
+                        android:layout_below="@+id/txt_food_skeleton_1"
+                        android:textSize="18dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/txt_food_skeleton_3"
+                        android:layout_marginBottom="20dp"/>
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view3"
+                android:layout_below="@+id/card_view5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                android:layout_marginBottom="@dimen/cardMarginVertical"
+                android:layout_marginLeft="@dimen/cardMarginHorizontal"
+                android:layout_marginRight="@dimen/cardMarginHorizontal"
+                android:layout_marginTop="@dimen/cardMarginVertical"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp"
+                app:cardBackgroundColor="@color/text_color_2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day"
+                        android:textSize="20dp"
+                        android:id="@+id/txt_hide_food_m_p_10_2_1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/food_male_plan_10_16"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/food_male_plan_10_15"
+                        android:textColor="@color/color30day_hide"
+                        android:layout_below="@+id/txt_hide_food_m_p_10_2_1"
+                        android:textSize="17dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/txt_hide_food_m_p_10_2_1"
+                        android:text="50"
+                        android:id="@+id/txt_food_m_p_s_k_1"
+                        android:layout_marginRight="10dp"
+                        android:textSize="20dp"
+                        android:layout_marginTop="5dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/txt_food_m_p_s_k_1"
+                        android:text="@string/food_cm"
+                        android:layout_marginRight="10dp"
+                        android:textSize="8dp"
+                        android:layout_marginTop="0dp" />
+
+                    <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/seekbar_m_p_k"
+                        android:layout_below="@+id/txt_food_m_p_s_k_1"
+                        app:dsb_allowTrackClickToDrag="true"
+                        app:dsb_min="50"
+                        app:dsb_max="200"
+                        app:dsb_indicatorTextAppearance="@color/text_color_2"
+                        app:dsb_progressColor="@color/color30day"
+                        app:dsb_trackColor="@color/background_sport"
+                        app:dsb_indicatorColor="@color/color30day"
+                        app:dsb_rippleColor="@color/background_sport"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/food_male_plan_10_17"
+                        android:textColor="@color/color30day_hide"
+                        android:layout_below="@+id/seekbar_m_p_k"
+                        android:textSize="18dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/seekbar_m_p_k"
+                        android:text="50"
+                        android:id="@+id/txt_food_m_p_s_b_1"
+                        android:layout_marginRight="10dp"
+                        android:textSize="20dp"
+                        android:layout_marginTop="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/txt_food_m_p_s_b_1"
+                        android:text="@string/food_cm"
+                        android:layout_marginRight="10dp"
+                        android:textSize="8dp"
+                        android:layout_marginTop="0dp" />
+
+                    <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/seekbar_m_p_b"
+                        android:layout_below="@+id/txt_food_m_p_s_b_1"
+                        app:dsb_allowTrackClickToDrag="true"
+                        app:dsb_min="50"
+                        app:dsb_max="180"
+                        app:dsb_indicatorTextAppearance="@color/text_color_2"
+                        app:dsb_progressColor="@color/color30day"
+                        app:dsb_trackColor="@color/background_sport"
+                        app:dsb_indicatorColor="@color/color30day"
+                        app:dsb_rippleColor="@color/background_sport"
+                        />
+
+                    <com.andexert.library.RippleView
+                        android:id="@+id/more014"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/seekbar_m_p_b"
+                        android:layout_marginLeft="@dimen/cardMarginHorizontal"
+                        android:layout_marginRight="@dimen/cardMarginHorizontal"
+                        android:layout_centerHorizontal="true"
+                        rv_color="@color/color30day"
+                        rv_zoom="true"
+                        app:rv_centered="true"
+                        app:rv_type="doubleRipple">
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/card_view4_bo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/seekbar_m_p_b"
+                            android:layout_marginBottom="20dp"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp"
+                            android:layout_centerHorizontal="true"
+                            app:cardPreventCornerOverlap="false"
+                            app:cardBackgroundColor="@color/color30day">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/btn_food_body_3"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/food_confirm"
+                                android:textColor="@color/text_color_2"
+                                android:layout_marginRight="50dp"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:textSize="16dp"
+                                android:layout_gravity="center"/>
+
+                        </android.support.v7.widget.CardView>
+                    </com.andexert.library.RippleView>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="WHR"
+                        android:textColor="@color/background_sport"
+                        android:layout_below="@+id/more014"
+                        android:textSize="18dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/txt_food_health_1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:layout_toRightOf="@+id/txt_food_health_1"
+                        android:layout_below="@+id/more014"
+                        android:text="@string/food_male_plan_10_6_1_sa"
+                        android:id="@+id/txt_food_m_p_s_b_h"
+                        android:textSize="15dp"
+                        android:layout_marginTop="8dp" />
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_food_health_2"
+                        android:textColor="@color/color30day"
+                        android:textSize="15dp"
+                        android:layout_below="@+id/more014"
+                        android:layout_toRightOf="@+id/txt_food_m_p_s_b_h"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="15dp" />
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day_hide"
+                        android:layout_below="@+id/txt_food_health_1"
+                        android:textSize="18dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/txt_food_health_3"
+                        android:layout_marginBottom="20dp"/>
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/shodw_sport_me_start2"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

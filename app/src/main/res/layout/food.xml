@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_sport">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:layout_centerHorizontal="true" >
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/clude_1"
+        layout="@layout/tolbar_start" ></include>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/food_ss"
+                android:textColor="@color/color30day"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:visibility="gone"
+                android:id="@+id/alakiha_26"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/clude_1"
+        android:layout_marginRight="15dp"
+        android:id="@+id/ra_food_1">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/food_weight"
+        android:textColor="@color/color30day_hide"
+        android:textSize="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="12dp"
+        android:id="@+id/text_food_zab_1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color30day"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt_food_weight"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color30day"
+            android:layout_alignParentRight="true"
+            android:id="@+id/txt_food_weight_kg"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"/>
+
+    <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:id="@+id/seekbar_weight"
+        app:dsb_allowTrackClickToDrag="true"
+        app:dsb_min="20"
+        app:dsb_max="160"
+        app:dsb_indicatorTextAppearance="@color/text_color_2"
+        app:dsb_progressColor="@color/color30day"
+        app:dsb_trackColor="@color/text_color_2"
+        app:dsb_indicatorColor="@color/color30day"
+        app:dsb_rippleColor="@color/text_color_2"
+        />
+
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/ra_food_1"
+        android:id="@+id/ra_food_2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food_old"
+            android:textColor="@color/color30day_hide"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/text_food_zab_2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color30day"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/txt_food_old"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color30day"
+            android:layout_alignParentRight="true"
+            android:id="@+id/txt_food_old_yaer"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp" />
+
+        <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:id="@+id/seekbar_old"
+            app:dsb_allowTrackClickToDrag="true"
+            app:dsb_min="1"
+            app:dsb_max="100"
+            app:dsb_indicatorTextAppearance="@color/text_color_2"
+            app:dsb_progressColor="@color/color30day"
+            app:dsb_trackColor="@color/text_color_2"
+            app:dsb_indicatorColor="@color/color30day"
+            app:dsb_rippleColor="@color/text_color_2"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/ra_food_2"
+        android:id="@+id/ra_food_3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food_length"
+            android:textColor="@color/color30day_hide"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/text_food_zab_3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color30day"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/txt_food_length"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color30day"
+            android:layout_alignParentRight="true"
+            android:id="@+id/txt_food_cm"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp" />
+
+        <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:id="@+id/seekbar_length"
+            app:dsb_allowTrackClickToDrag="true"
+            app:dsb_min="80"
+            app:dsb_max="220"
+            app:dsb_indicatorTextAppearance="@color/text_color_2"
+            app:dsb_progressColor="@color/color30day"
+            app:dsb_trackColor="@color/text_color_2"
+            app:dsb_indicatorColor="@color/color30day"
+            app:dsb_rippleColor="@color/text_color_2"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ra_food_3"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rl_food_f_m_2">
+
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/circle_ativity_normal_off"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/im_activity_medium_off"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/circle_ativity_normal_on"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/im_activity_medium_on"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/circle_ativity_low_off"
+            android:layout_toLeftOf="@+id/im_activity_medium_off"
+            android:layout_marginRight="15dp"
+            android:id="@+id/im_activity_low_off" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/circle_ativity_low_on"
+            android:layout_toLeftOf="@+id/im_activity_medium_off"
+            android:layout_marginRight="15dp"
+            android:id="@+id/im_activity_low_on" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/circle_ativity_off_off"
+            android:layout_toLeftOf="@+id/im_activity_low_on"
+            android:layout_marginRight="15dp"
+            android:id="@+id/im_activity_inactive_off" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/circle_ativity_off_on"
+            android:layout_toLeftOf="@+id/im_activity_low_on"
+            android:layout_marginRight="15dp"
+            android:id="@+id/im_activity_inactive_on" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/circle_ativity_hard_off"
+            android:layout_toRightOf="@+id/im_activity_medium_off"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/im_activity_hard_off" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/circle_ativity_hard_on"
+            android:layout_toRightOf="@+id/im_activity_medium_off"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/im_activity_hard_on" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/circle_ativity_veryhard_off"
+            android:layout_toRightOf="@+id/im_activity_hard_off"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/im_activity_veryhard_off" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/circle_ativity_veryhard_on"
+            android:layout_toRightOf="@+id/im_activity_hard_off"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/im_activity_veryhard_on" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food_Activity_hard"
+            android:textColor="@color/color30day_hide"
+            android:textSize="10dp"
+            android:layout_below="@+id/im_activity_hard_off"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="3dp"
+            android:id="@+id/txt_activity_hard"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food_Activity_veryhard"
+            android:textColor="@color/color30day_hide"
+            android:textSize="10dp"
+            android:layout_below="@+id/im_activity_veryhard_off"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="3dp"
+            android:id="@+id/txt_activity_veryhard"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food_Activity_low"
+            android:textColor="@color/color30day_hide"
+            android:textSize="10dp"
+            android:layout_below="@+id/im_activity_low_off"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="71dp"
+            android:layout_marginTop="3dp"
+            android:id="@+id/txt_activity_low"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food_Activity_inactive"
+            android:textColor="@color/color30day_hide"
+            android:textSize="10dp"
+            android:layout_below="@+id/im_activity_low_off"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="3dp"
+            android:id="@+id/txt_activity_inactive"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food_Activity_medium"
+            android:textColor="@color/color30day_hide"
+            android:textSize="10dp"
+            android:layout_below="@+id/im_activity_medium_off"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:id="@+id/txt_activity_medium"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/food_Activity"
+        android:textSize="16dp"
+        android:textColor="@color/color30day"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rl_food_f_m_2"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:id="@+id/txt_activity"/>
+
+
+    <RelativeLayout
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txt_activity"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rl_food_f_m_1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/alekyha_1"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/female_off"
+        android:layout_toLeftOf="@+id/alekyha_1"
+        android:layout_marginRight="15dp"
+        android:id="@+id/im_female_off" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/female_on"
+        android:layout_toLeftOf="@+id/alekyha_1"
+        android:layout_marginRight="15dp"
+        android:id="@+id/im_female_on" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/male_on"
+        android:layout_toRightOf="@+id/alekyha_1"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/im_male_on"
+        />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/male_off"
+        android:layout_toRightOf="@+id/alekyha_1"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/im_male_off"
+        android:layout_marginRight="85dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/im_male_off"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_marginTop="3dp">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/food_female"
+            android:textColor="@color/color30day_hide"
+            android:textSize="12sp"
+            android:id="@+id/txt_food_female"
+            android:gravity="center"
+            android:layout_gravity="left"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/food_male"
+                android:textColor="@color/color30day_hide"
+                android:textSize="12sp"
+                android:id="@+id/txt_food_male"
+                android:gravity="center"
+                android:layout_gravity="right"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/food_gender"
+        android:textSize="16dp"
+        android:textColor="@color/color30day"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rl_food_f_m_1"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:id="@+id/txt_gender_1"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:id="@+id/rl_food_c_2"
+                android:layout_below="@id/txt_gender_1" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_food_c_2"
+        android:id="@+id/rl_food_c_1"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/circle_food_confirm_off"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/im_food_confirm_off"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food_confirm"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="18dp"
+            android:textColor="@color/color30day"
+            android:id="@+id/txt_confirm_1"/>
+
+    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/rl_food_c_1" />
+
+
+</RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/food_try"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/text_color_2"
+        android:textSize="12sp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/text_food_rem_1"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/shodw_sport_me_start2"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

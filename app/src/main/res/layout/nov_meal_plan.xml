@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_color_2">
+
+    <include
+        android:id="@+id/clude_1"
+        layout="@layout/tolbar_start_5" />
+
+    <include
+        android:id="@+id/clude_2"
+        layout="@layout/no_bar2" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:background="@color/text_color_2">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_meal_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp"
+        android:layout_centerInParent="true"
+        app:cardPreventCornerOverlap="false"
+        app:contentPadding="0dp"
+        app:cardBackgroundColor="@color/background_sport">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_nov_qu_1"
+                    android:text="@string/text_nov_meal_txt_qu_1"
+                    android:textColor="@color/text_color_2"
+                    android:textSize="18sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/entekab_meal"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/imag_gyah"
+                    android:src="@drawable/grass_off"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/txt_nov_qu_1" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/imag_gyah"
+                    android:src="@drawable/aviary_overscroll_edge"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_nov_qu_2"
+                    android:text="@string/text_nov_meal_txt_qu_2"
+                    android:textColor="@color/text_color_2"
+                    android:textSize="18sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/alakiha_2222"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/txt_nov_qu_2"
+                android:orientation="horizontal">
+
+                <ImageView
+                android:layout_width="0dp"
+                    android:layout_height="@dimen/entekab_meal_b"
+                    android:layout_weight="1"
+                android:id="@+id/imag_deiabet"
+                android:src="@drawable/deiabet_off2"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/entekab_meal_b"
+                    android:layout_weight="1"
+                    android:id="@+id/imag_heart"
+                    android:src="@drawable/heart_off"
+                    android:layout_gravity="center" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/entekab_meal_b"
+                    android:layout_weight="1"
+                    android:id="@+id/imag_mede"
+                    android:src="@drawable/stomach_off"
+                    android:layout_gravity="center" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/alakiha_2222"
+                android:id="@+id/alekyha_1111"
+                android:orientation="horizontal">
+
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/text_nov_meal_txt_dyabet"
+                    android:gravity="center"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/alekyha_1001"
+                    android:textSize="15sp"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/text_nov_meal_txt_ghalb"
+                    android:gravity="center"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/alekyha_1002"
+                    android:textSize="15sp"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/text_nov_meal_txt_mede"
+                    android:gravity="center"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/alekyha_1003"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/alekyha_1111"
+                    android:src="@drawable/aviary_overscroll_edge"/>
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_start_meal"
+        android:text="@string/text_nov_meal_txt_btn"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_color_2"
+        android:background="@drawable/btn_meal_start"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/shodw_sport_me_start2"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

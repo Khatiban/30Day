@@ -1,0 +1,436 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.android.fury.a30day"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/themeapp"
+        android:largeHeap="true"
+        >
+
+        <activity
+            android:name=".Start_1"
+            android:screenOrientation="portrait"
+            android:theme="@style/start_1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Start_2"
+            android:screenOrientation="portrait"
+            android:theme="@style/start_2">
+            <intent-filter>
+                <action android:name="android.intent.action.START_2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".page.Page_1"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.PAGE_1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu_view.about"
+            android:screenOrientation="portrait"
+            android:theme="@style/about">
+            <intent-filter>
+                <action android:name="android.intent.action.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu_view.setting"
+            android:screenOrientation="portrait"
+            android:theme="@style/setting">
+            <intent-filter>
+                <action android:name="android.intent.action.SETTING" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu_view.music"
+            android:screenOrientation="portrait"
+            android:theme="@style/music">
+            <intent-filter>
+                <action android:name="android.intent.action.MUSIC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu_view.setting_language"
+            android:screenOrientation="portrait"
+            android:theme="@style/setting">
+            <intent-filter>
+                <action android:name="android.intent.action.SETTING_LANGUAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu_view.setting_alarm"
+            android:screenOrientation="portrait"
+            android:theme="@style/setting">
+            <intent-filter>
+                <action android:name="android.intent.action.SETTING_ALARM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".page.Page_2"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.PAGE_2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".food.food"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.FOOD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".food.food_page_org"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.FOOD_PAGE_ORG" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sport.sport"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SPORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".food.food_male_plan_10"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.FOOD_MALE_PLAN_10" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".food.food_mp_10_Drawer"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.DRAWERACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".food.food_male_plan_10_food"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.FOOD_MALE_PLAN_10_FODD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".food.body_heath"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.BODY_HEATH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sport.sport_relax"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.SPORT_RELAX" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".sport.sport_v"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.SPORT_V" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".sport.sport_start"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.SPORT_START" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".sport.sport_end"
+            android:screenOrientation="portrait"
+            android:theme="@style/sport_end">
+            <intent-filter>
+                <action android:name="android.intent.action.SPORT_END" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".instagram"
+            android:screenOrientation="portrait"
+            android:theme="@style/sport_end">
+            <intent-filter>
+                <action android:name="android.intent.action.INSTAGRAM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Search"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.FOOD_SEARCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Not_net"
+            android:screenOrientation="portrait"
+            android:theme="@style/not_net">
+            <intent-filter>
+                <action android:name="android.intent.action.NOT_NET" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sport.Sport_me_start"
+            android:screenOrientation="portrait"
+            android:theme="@style/sport_me_start">
+            <intent-filter>
+                <action android:name="android.intent.action.NOT_NET" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sport.Sport_me"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.SPORT_ME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sport.Sport_me_relax"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.SPORT_ME_RELAX" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sport.Sport_me_end"
+            android:screenOrientation="portrait"
+            android:theme="@style/sport_end">
+            <intent-filter>
+                <action android:name="android.intent.action.SPORT_ME_END" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".food.nov_meal_plan"
+            android:screenOrientation="portrait"
+            android:theme="@style/nov_meal">
+            <intent-filter>
+                <action android:name="android.intent.action.NOV_MEAL_PLAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".food.Meal_plan"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MEAL_PLAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PageStart.PageStart"
+            android:screenOrientation="portrait"
+            android:theme="@style/page_start">
+            <intent-filter>
+                <action android:name="android.intent.action.PAGESTART" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Suport.Suport_me"
+            android:screenOrientation="portrait"
+            android:theme="@style/suport">
+            <intent-filter>
+                <action android:name="android.intent.action.SUPORT_ME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <service android:name=".sport.Back_Music"></service>
+        <service android:name=".sport.Back_Music_Online"></service>
+        <service android:name=".sport.Back_Music_Me"></service>
+
+        <service
+            android:name=".alarm.nahar.NotificationIntentService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver android:name=".alarm.nahar.NotificationEventReceiver3" />
+        <receiver android:name=".alarm.nahar.NotificationServiceStarterReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".alarm.ads.NotificationIntentService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver android:name=".alarm.ads.NotificationEventReceiver" />
+        <receiver android:name=".alarm.ads.NotificationServiceStarterReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".alarm.myanvade1.NotificationIntentService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver android:name=".alarm.myanvade1.NotificationEventReceiver1" />
+        <receiver android:name=".alarm.myanvade1.NotificationServiceStarterReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".alarm.myanvade2.NotificationIntentService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver android:name=".alarm.myanvade2.NotificationEventReceiver2" />
+        <receiver android:name=".alarm.myanvade2.NotificationServiceStarterReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".alarm.sham.NotificationIntentService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver android:name=".alarm.sham.NotificationEventReceiver4" />
+        <receiver android:name=".alarm.sham.NotificationServiceStarterReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".alarm.sobhane.NotificationIntentService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver android:name=".alarm.sobhane.NotificationEventReceiver5" />
+        <receiver android:name=".alarm.sobhane.NotificationServiceStarterReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".alarm.sport.NotificationIntentService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver android:name=".alarm.sport.NotificationEventReceiver6" />
+        <receiver android:name=".alarm.sport.NotificationServiceStarterReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

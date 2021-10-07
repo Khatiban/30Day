@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view2_1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="@dimen/image_meal_h"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp"
+        android:layout_marginBottom="@dimen/cardMarginVertical"
+        android:layout_marginLeft="@dimen/cardMarginHorizontal"
+        android:layout_marginRight="@dimen/cardMarginHorizontal"
+        android:layout_marginTop="@dimen/cardMarginVertical"
+        app:cardPreventCornerOverlap="false"
+        app:contentPadding="0dp"
+        app:cardBackgroundColor="@color/text_color_2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/hide_food_food1"
+            android:padding="2dp"
+            android:id="@+id/alekyha_2"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/hide_food_food1"
+            android:padding="2dp"
+            android:id="@+id/alekyha_3" />
+        <ImageView
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/hide_food_food1"
+            android:padding="2dp"
+            android:id="@+id/alekyha_4" />
+        <ImageView
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/hide_food_food1"
+            android:padding="2dp"
+            android:id="@+id/alekyha_5" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:id="@+id/im_2_1_food_te_1"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/alekyha_2"
+            android:layout_above="@+id/alekyha_3"
+            android:layout_toRightOf="@+id/alekyha_4"
+            android:layout_toLeftOf="@+id/alekyha_5"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="10dp"
+           android:layout_marginLeft="10dp">
+
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_food_food_name_1"
+                android:text="makorany"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/text_color_2"
+                android:textSize="22dp"
+                android:gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/txt_food_food_name_1"
+                android:layout_above="@+id/txt_food_food_wwww_1"
+                android:layout_centerHorizontal="true">
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/txt_food_food_conteri_1"
+                android:text="iran"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/text_color_2"
+                android:gravity="center_horizontal"
+                android:textSize="18dp"/>
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/txt_food_food_how_1"
+                android:text="gyah"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/text_color_2"
+                android:gravity="center_horizontal"
+                android:textSize="18dp"/>
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/txt_food_food_time_1"
+                android:gravity="center_horizontal"
+                android:text="30 min"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/text_color_2"
+                android:textSize="18dp"/>
+
+            </LinearLayout>
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_food_food_wwww_1"
+                android:text="6 nafr"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+
+                android:paddingBottom="10dp"
+                android:textColor="@color/text_color_2"
+                android:textSize="18dp" />
+
+
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view2_2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="@dimen/image_meal_h"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp"
+        android:layout_marginBottom="@dimen/cardMarginVertical"
+        android:layout_marginLeft="@dimen/cardMarginHorizontal"
+        android:layout_marginRight="@dimen/cardMarginHorizontal"
+        android:layout_marginTop="@dimen/cardMarginVertical"
+        app:cardPreventCornerOverlap="false"
+        app:contentPadding="0dp"
+        app:cardBackgroundColor="@color/text_color_2">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/hide_food_food1"
+            android:padding="2dp"
+            android:id="@+id/alekyha_6"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/hide_food_food1"
+            android:padding="2dp"
+            android:id="@+id/alekyha_7" />
+        <ImageView
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/hide_food_food1"
+            android:padding="2dp"
+            android:id="@+id/alekyha_8" />
+        <ImageView
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/hide_food_food1"
+            android:padding="2dp"
+            android:id="@+id/alekyha_9" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:id="@+id/im_2_1_food_te_2"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/alekyha_6"
+            android:layout_above="@+id/alekyha_7"
+            android:layout_toRightOf="@+id/alekyha_8"
+            android:layout_toLeftOf="@+id/alekyha_9"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_food_food_name_2"
+                android:text="makorany"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/text_color_2"
+                android:gravity="center_horizontal"
+                android:textSize="22dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/txt_food_food_name_2"
+                android:layout_above="@+id/txt_food_food_wwww_2"
+                android:layout_centerHorizontal="true">
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/txt_food_food_conteri_2"
+                    android:text="iran"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/text_color_2"
+                    android:gravity="center_horizontal"
+                    android:textSize="18dp"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/txt_food_food_how_2"
+                    android:text="gyah"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/text_color_2"
+                    android:textSize="18dp"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/txt_food_food_time_2"
+                    android:text="30 min"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/text_color_2"
+                    android:textSize="18dp"/>
+
+            </LinearLayout>
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_food_food_wwww_2"
+                android:text="6 nafr"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+
+                android:gravity="center_horizontal"
+                android:paddingBottom="10dp"
+                android:textColor="@color/text_color_2"
+                android:textSize="18dp" />
+
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
+</FrameLayout>

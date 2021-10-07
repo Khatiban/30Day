@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_sport"
+    tools:context=".food.Meal_plan">
+
+    <include layout="@layout/st_bar"
+        android:id="@+id/statos_bar"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/meal_imag_top"
+            android:id="@+id/imag_meal_me_top"
+            android:src="@drawable/imag_top_meal_plan_1"
+            android:scaleType="fitStart" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/back_page_meal"
+            android:src="@drawable/back_3"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="12dp"
+            android:padding="5dp"/>
+
+    </RelativeLayout>
+
+
+
+
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_meal_nashta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/cardMarginVertical"
+        android:layout_marginLeft="@dimen/cardMarginVertical"
+        android:layout_marginRight="@dimen/cardMarginVertical"
+        android:layout_marginTop="2dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:contentPadding="0dp"
+        app:cardBackgroundColor="@color/text_color_2">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_tit_meal_1"
+                android:textColor="@color/color30day"
+                android:textSize="18sp"
+                android:id="@+id/alekyha_10000"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"/>
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_tit_meal_calery"
+                android:textColor="@color/color30day"
+                android:textSize="14sp"
+                android:layout_below="@+id/alekyha_10000"
+                android:id="@+id/alekyha_10001"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="8dp"/>
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/background_sport"
+                android:textSize="14sp"
+                android:layout_toLeftOf="@+id/alekyha_10001"
+                android:layout_below="@+id/alekyha_10000"
+                android:id="@+id/meal_calery_nashta"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:text="-"/>
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_tit_meal_food"
+                android:textColor="@color/color30day"
+                android:textSize="14sp"
+                android:layout_below="@+id/meal_calery_nashta"
+                android:id="@+id/alekyha_10002"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="8dp"/>
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/background_sport"
+                android:textSize="14sp"
+                android:layout_toLeftOf="@+id/alekyha_10002"
+                android:layout_below="@+id/meal_calery_nashta"
+                android:id="@+id/meal_food_nashta"
+                android:layout_marginRight="5dp"
+                android:text="غذایی وجود ندارد"
+                android:layout_marginTop="8dp"/>
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_tit_meal_noshidane"
+                android:textColor="@color/color30day"
+                android:textSize="14sp"
+                android:layout_below="@+id/meal_food_nashta"
+                android:id="@+id/alekyha_10003"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="8dp"/>
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/background_sport"
+                android:textSize="14sp"
+                android:layout_toLeftOf="@+id/alekyha_10003"
+                android:layout_below="@+id/meal_food_nashta"
+                android:id="@+id/meal_food_noshidan"
+                android:layout_marginRight="5dp"
+                android:text="نوشیدنی صرف نشود"
+                android:layout_marginTop="8dp"/>
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_tit_meal_time"
+                android:textColor="@color/color30day"
+                android:textSize="14sp"
+                android:layout_below="@+id/meal_food_noshidan"
+                android:id="@+id/alekyha_10004"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="8dp"/>
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/background_sport"
+                android:textSize="14sp"
+                android:layout_toLeftOf="@+id/alekyha_10004"
+                android:layout_below="@+id/meal_food_noshidan"
+                android:id="@+id/meal_food_time"
+                android:layout_marginRight="5dp"
+                android:text="هر زمان که خواستید"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="8dp"/>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_meal_sobhane"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/cardMarginVertical"
+            android:layout_marginLeft="@dimen/cardMarginVertical"
+            android:layout_marginRight="@dimen/cardMarginVertical"
+            android:layout_marginTop="@dimen/cardMarginVertical"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            app:cardPreventCornerOverlap="false"
+            app:contentPadding="0dp"
+            app:cardBackgroundColor="@color/text_color_2">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_tit_meal_2"
+                    android:textColor="@color/color30day"
+                    android:textSize="18sp"
+                    android:id="@+id/alekyha_100000"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_tit_meal_calery"
+                    android:textColor="@color/color30day"
+                    android:textSize="14sp"
+                    android:layout_below="@+id/alekyha_100000"
+                    android:id="@+id/alekyha_100001"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="8dp" />
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/background_sport"
+                    android:textSize="14sp"
+                    android:layout_toLeftOf="@+id/alekyha_100001"
+                    android:layout_below="@+id/alekyha_100000"
+                    android:id="@+id/meal_calery_sobhane"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="5dp"
+                    android:text="-"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_tit_meal_food"
+                    android:textColor="@color/color30day"
+                    android:textSize="14sp"
+                    android:layout_below="@+id/meal_calery_sobhane"
+                    android:id="@+id/alekyha_100002"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="8dp"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/background_sport"
+                    android:textSize="14sp"
+                    android:layout_toLeftOf="@+id/alekyha_100002"
+                    android:layout_below="@+id/meal_calery_sobhane"
+                    android:id="@+id/meal_food_sobhane"
+                    android:layout_marginRight="5dp"
+                    android:text="غذایی وجود ندارد"
+                    android:layout_marginTop="8dp"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_tit_meal_noshidane"
+                    android:textColor="@color/color30day"
+                    android:textSize="14sp"
+                    android:layout_below="@+id/meal_food_sobhane"
+                    android:id="@+id/alekyha_100003"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="8dp"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/background_sport"
+                    android:textSize="14sp"
+                    android:layout_toLeftOf="@+id/alekyha_100003"
+                    android:layout_below="@+id/meal_food_sobhane"
+                    android:id="@+id/meal_food_noshidan_sobhane"
+                    android:layout_marginRight="5dp"
+                    android:text="نوشیدنی صرف نشود"
+                    android:layout_marginTop="8dp"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_tit_meal_time"
+                    android:textColor="@color/color30day"
+                    android:textSize="14sp"
+                    android:layout_below="@+id/meal_food_noshidan_sobhane"
+                    android:id="@+id/alekyha_100004"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="8dp"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/background_sport"
+                    android:textSize="14sp"
+                    android:layout_toLeftOf="@+id/alekyha_100004"
+                    android:layout_below="@+id/meal_food_noshidan_sobhane"
+                    android:id="@+id/meal_food_time_sobhane"
+                    android:layout_marginRight="5dp"
+                    android:text="هر زمان که خواستید"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="8dp"/>
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_meal_meyan_vade_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/cardMarginVertical"
+                android:layout_marginLeft="@dimen/cardMarginVertical"
+                android:layout_marginRight="@dimen/cardMarginVertical"
+                android:layout_marginTop="@dimen/cardMarginVertical"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp"
+                app:cardBackgroundColor="@color/text_color_2">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp">
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_3"
+                        android:textColor="@color/color30day"
+                        android:textSize="18sp"
+                        android:id="@+id/alekyha_1000000"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_calery"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/alekyha_1000000"
+                        android:id="@+id/alekyha_1000001"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp" />
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_1000001"
+                        android:layout_below="@+id/alekyha_1000000"
+                        android:id="@+id/meal_calery_meyan_vade_1"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="8dp"
+                        android:text="-"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_food"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/meal_calery_meyan_vade_1"
+                        android:id="@+id/alekyha_1000002"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_1000002"
+                        android:layout_below="@+id/meal_calery_meyan_vade_1"
+                        android:id="@+id/meal_food_meyan_vade_1"
+                        android:layout_marginRight="5dp"
+                        android:text="غذایی وجود ندارد"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_noshidane"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/meal_food_meyan_vade_1"
+                        android:id="@+id/alekyha_1000003"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_1000003"
+                        android:layout_below="@+id/meal_food_meyan_vade_1"
+                        android:id="@+id/meal_food_noshidan_meyan_vade_1"
+                        android:layout_marginRight="5dp"
+                        android:text="نوشیدنی صرف نشود"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_time"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/meal_food_noshidan_meyan_vade_1"
+                        android:id="@+id/alekyha_1000004"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_1000004"
+                        android:layout_below="@+id/meal_food_noshidan_meyan_vade_1"
+                        android:id="@+id/meal_food_time_meyan_vade_1"
+                        android:layout_marginRight="5dp"
+                        android:text="هر زمان که خواستید"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="8dp"/>
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_meal_meyan_vade_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/cardMarginVertical"
+                android:layout_marginLeft="@dimen/cardMarginVertical"
+                android:layout_marginRight="@dimen/cardMarginVertical"
+                android:layout_marginTop="@dimen/cardMarginVertical"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp"
+                app:cardBackgroundColor="@color/text_color_2">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp">
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_3"
+                        android:textColor="@color/color30day"
+                        android:textSize="18sp"
+                        android:id="@+id/alekyha_11000000"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_calery"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/alekyha_11000000"
+                        android:id="@+id/alekyha_11000001"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp" />
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_11000001"
+                        android:layout_below="@+id/alekyha_11000000"
+                        android:id="@+id/meal_calery_meyan_vade_3"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="8dp"
+                        android:text="-"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_food"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/meal_calery_meyan_vade_3"
+                        android:id="@+id/alekyha_11000002"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_11000002"
+                        android:layout_below="@+id/meal_calery_meyan_vade_3"
+                        android:id="@+id/meal_food_meyan_vade_3"
+                        android:layout_marginRight="5dp"
+                        android:text="غذایی وجود ندارد"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_noshidane"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/meal_food_meyan_vade_3"
+                        android:id="@+id/alekyha_11000003"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_11000003"
+                        android:layout_below="@+id/meal_food_meyan_vade_3"
+                        android:id="@+id/meal_food_noshidan_meyan_vade_3"
+                        android:layout_marginRight="5dp"
+                        android:text="نوشیدنی صرف نشود"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_time"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/meal_food_noshidan_meyan_vade_3"
+                        android:id="@+id/alekyha_11000004"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_11000004"
+                        android:layout_below="@+id/meal_food_noshidan_meyan_vade_3"
+                        android:id="@+id/meal_food_time_meyan_vade_3"
+                        android:layout_marginRight="5dp"
+                        android:text="هر زمان که خواستید"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="8dp"/>
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_meal_meyan_vade_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/cardMarginVertical"
+                android:layout_marginLeft="@dimen/cardMarginVertical"
+                android:layout_marginRight="@dimen/cardMarginVertical"
+                android:layout_marginTop="@dimen/cardMarginVertical"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp"
+                app:cardBackgroundColor="@color/text_color_2">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp">
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_3"
+                        android:textColor="@color/color30day"
+                        android:textSize="18sp"
+                        android:id="@+id/alekyha_111000000"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_calery"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/alekyha_111000000"
+                        android:id="@+id/alekyha_111000001"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp" />
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_111000001"
+                        android:layout_below="@+id/alekyha_111000000"
+                        android:id="@+id/meal_calery_meyan_vade_4"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="8dp"
+                        android:text="-"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_food"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/meal_calery_meyan_vade_4"
+                        android:id="@+id/alekyha_111000002"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_111000002"
+                        android:layout_below="@+id/meal_calery_meyan_vade_4"
+                        android:id="@+id/meal_food_meyan_vade_4"
+                        android:layout_marginRight="5dp"
+                        android:text="غذایی وجود ندارد"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_noshidane"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/meal_food_meyan_vade_4"
+                        android:id="@+id/alekyha_111000003"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_111000003"
+                        android:layout_below="@+id/meal_food_meyan_vade_4"
+                        android:id="@+id/meal_food_noshidan_meyan_vade_4"
+                        android:layout_marginRight="5dp"
+                        android:text="نوشیدنی صرف نشود"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_time"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/meal_food_noshidan_meyan_vade_4"
+                        android:id="@+id/alekyha_111000004"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_111000004"
+                        android:layout_below="@+id/meal_food_noshidan_meyan_vade_4"
+                        android:id="@+id/meal_food_time_meyan_vade_4"
+                        android:layout_marginRight="5dp"
+                        android:text="هر زمان که خواستید"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="8dp"/>
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_meal_nahar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/cardMarginVertical"
+                android:layout_marginLeft="@dimen/cardMarginVertical"
+                android:layout_marginRight="@dimen/cardMarginVertical"
+                android:layout_marginTop="@dimen/cardMarginVertical"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp"
+                app:cardBackgroundColor="@color/text_color_2">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp">
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_4"
+                        android:textColor="@color/color30day"
+                        android:textSize="18sp"
+                        android:id="@+id/alekyha_1000000000"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_calery"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/alekyha_1000000000"
+                        android:id="@+id/alekyha_1000000001"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp" />
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_1000000001"
+                        android:layout_below="@+id/alekyha_1000000000"
+                        android:id="@+id/meal_calery_nahar"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="8dp"
+                        android:text="-"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_food"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/meal_calery_nahar"
+                        android:id="@+id/alekyha_1000000002"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_1000000002"
+                        android:layout_below="@+id/meal_calery_nahar"
+                        android:id="@+id/meal_food_nahar"
+                        android:layout_marginRight="5dp"
+                        android:text="غذایی وجود ندارد"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_noshidane"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/meal_food_nahar"
+                        android:id="@+id/alekyha_1000000003"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_1000000003"
+                        android:layout_below="@+id/meal_food_nahar"
+                        android:id="@+id/meal_food_noshidan_nahar"
+                        android:layout_marginRight="5dp"
+                        android:text="نوشیدنی صرف نشود"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_time"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/meal_food_noshidan_nahar"
+                        android:id="@+id/alekyha_1000000004"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_1000000004"
+                        android:layout_below="@+id/meal_food_noshidan_nahar"
+                        android:id="@+id/meal_food_time_nahar"
+                        android:layout_marginRight="5dp"
+                        android:text="هر زمان که خواستید"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="8dp"/>
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_meal_meyan_vade_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/cardMarginVertical"
+                android:layout_marginLeft="@dimen/cardMarginVertical"
+                android:layout_marginRight="@dimen/cardMarginVertical"
+                android:layout_marginTop="@dimen/cardMarginVertical"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp"
+                app:cardBackgroundColor="@color/text_color_2">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp">
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_5"
+                        android:textColor="@color/color30day"
+                        android:textSize="18sp"
+                        android:id="@+id/alekyha_100000000"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_calery"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/alekyha_100000000"
+                        android:id="@+id/alekyha_100000001"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp" />
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_100000001"
+                        android:layout_below="@+id/alekyha_100000000"
+                        android:id="@+id/meal_calery_meyan_vade_2"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="8dp"
+                        android:text="-"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_food"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/meal_calery_meyan_vade_2"
+                        android:id="@+id/alekyha_100000002"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_100000002"
+                        android:layout_below="@+id/meal_calery_meyan_vade_2"
+                        android:id="@+id/meal_food_meyan_vade_2"
+                        android:layout_marginRight="5dp"
+                        android:text="غذایی وجود ندارد"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_noshidane"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/meal_food_meyan_vade_2"
+                        android:id="@+id/alekyha_100000003"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_100000003"
+                        android:layout_below="@+id/meal_food_meyan_vade_2"
+                        android:id="@+id/meal_food_noshidan_meyan_vade_2"
+                        android:layout_marginRight="5dp"
+                        android:text="نوشیدنی صرف نشود"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_time"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/meal_food_noshidan_meyan_vade_2"
+                        android:id="@+id/alekyha_100000004"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_100000004"
+                        android:layout_below="@+id/meal_food_noshidan_meyan_vade_2"
+                        android:id="@+id/meal_food_time_meyan_vade_2"
+                        android:layout_marginRight="5dp"
+                        android:text="هر زمان که خواستید"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="8dp"/>
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_meal_sham"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/cardMarginVertical"
+                android:layout_marginLeft="@dimen/cardMarginVertical"
+                android:layout_marginRight="@dimen/cardMarginVertical"
+                android:layout_marginTop="@dimen/cardMarginVertical"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp"
+                app:cardBackgroundColor="@color/text_color_2">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp">
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_6"
+                        android:textColor="@color/color30day"
+                        android:textSize="18sp"
+                        android:id="@+id/alekyha_10000000"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_calery"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/alekyha_10000000"
+                        android:id="@+id/alekyha_10000001"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp" />
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_10000001"
+                        android:layout_below="@+id/alekyha_10000000"
+                        android:id="@+id/meal_calery_sham"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="8dp"
+                        android:text="-"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_food"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/meal_calery_sham"
+                        android:id="@+id/alekyha_10000002"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_10000002"
+                        android:layout_below="@+id/meal_calery_sham"
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/meal_food_sham"
+                        android:text="غذایی وجود ندارد"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_noshidane"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/meal_food_sham"
+                        android:id="@+id/alekyha_10000003"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_10000003"
+                        android:layout_below="@+id/meal_food_sham"
+                        android:id="@+id/meal_food_noshidan_sham"
+                        android:layout_marginRight="5dp"
+                        android:text="نوشیدنی صرف نشود"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_time"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/meal_food_noshidan_sham"
+                        android:id="@+id/alekyha_10000004"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_10000004"
+                        android:layout_below="@+id/meal_food_noshidan_sham"
+                        android:id="@+id/meal_food_time_sham"
+                        android:layout_marginRight="5dp"
+                        android:text="هر زمان که خواستید"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="8dp"/>
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_meal_faleyat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/cardMarginVertical"
+                android:layout_marginLeft="@dimen/cardMarginVertical"
+                android:layout_marginRight="@dimen/cardMarginVertical"
+                android:layout_marginTop="@dimen/cardMarginVertical"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp"
+                app:cardBackgroundColor="@color/text_color_2">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp">
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_7"
+                        android:textColor="@color/color30day"
+                        android:textSize="18sp"
+                        android:id="@+id/alekyha_10000000000"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_varzesh"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/alekyha_10000000000"
+                        android:id="@+id/alekyha_10000000001"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp" />
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_10000000001"
+                        android:layout_below="@+id/alekyha_10000000000"
+                        android:id="@+id/meal_varzesh_faleyat"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="8dp"
+                        android:text="-"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_pyade_rave"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/meal_varzesh_faleyat"
+                        android:id="@+id/alekyha_10000000002"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_10000000002"
+                        android:layout_below="@+id/meal_varzesh_faleyat"
+                        android:id="@+id/meal_pyade_rave_faleyat"
+                        android:layout_marginRight="5dp"
+                        android:text="اگر ورزش روزانه را انجام دهید نیازی به پیاده روی نیست"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_esteraht"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/meal_pyade_rave_faleyat"
+                        android:id="@+id/alekyha_10000000003"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/background_sport"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/alekyha_10000000003"
+                        android:layout_below="@+id/meal_pyade_rave_faleyat"
+                        android:id="@+id/meal_food_esteraht_faleyat"
+                        android:layout_marginRight="5dp"
+                        android:text="سعی کنید زیاد در یک جا ساکن نباشد (مانند تماشا تلویزیون)"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="10dp"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_meal_tavajoh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/cardMarginVertical"
+                android:layout_marginLeft="@dimen/cardMarginVertical"
+                android:layout_marginRight="@dimen/cardMarginVertical"
+                android:layout_marginTop="@dimen/cardMarginVertical"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp"
+                app:cardBackgroundColor="@color/text_color_2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerHorizontal="true">
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/food_male_plan_10_13"
+                        android:textColor="@color/color30day"
+                        android:textSize="18sp"
+                        android:id="@+id/alekyha_100000000000"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="نکته برای یاد آوری وجود ندارد"
+                        android:textColor="@color/color30day"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/alekyha_100000000000"
+                        android:id="@+id/txt_meal_tavajoh"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="10dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_meal_anjam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="@dimen/cardMarginVertical"
+                android:layout_marginRight="@dimen/cardMarginVertical"
+                android:layout_marginTop="@dimen/cardMarginVertical"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp"
+                app:cardBackgroundColor="@color/color30day">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_8"
+                        android:textColor="@color/text_color_2"
+                        android:textSize="18sp"
+                        android:id="@+id/alekyha_1000000000000"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_tit_meal_h_anjam"
+                        android:textColor="@color/text_color_2"
+                        android:textSize="12sp"
+                        android:layout_below="@+id/alekyha_1000000000000"
+                        android:id="@+id/txt_meal_anjam"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="10dp"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/shodw_sport_me_start2"
+        android:layout_gravity="bottom"/>
+
+</LinearLayout>

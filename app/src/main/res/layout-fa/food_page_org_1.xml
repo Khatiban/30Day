@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_color_2"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_sport"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+
+            <RelativeLayout
+                android:id="@+id/alakiha_23"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/lin_food_mp_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/txt_food_day_txt_about"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="30dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_food_day_1"
+                        android:layout_width="@dimen/food_org"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <RelativeLayout
+                            android:id="@+id/rl_food_day_1_1"
+                            android:layout_width="128dp"
+                            android:layout_height="128dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/circle_food_day_off">
+
+
+                            <com.android.fury.a30day.Font_text.Font
+                                android:id="@+id/txt_food_day_1_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="@string/food_day_10_3"
+                                android:textColor="@color/color30day"
+                                android:textSize="70sp" />
+
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_food_day_2"
+                        android:layout_width="@dimen/food_org"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1">
+
+
+                        <RelativeLayout
+                            android:id="@+id/rl_food_day_2_1"
+                            android:layout_width="128dp"
+                            android:layout_height="128dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/circle_food_day_off">
+
+                            <com.android.fury.a30day.Font_text.Font
+                                android:id="@+id/txt_food_day_2_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="@string/food_day_10_3_2"
+                                android:textColor="@color/color30day"
+                                android:textSize="75sp" />
+
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_food_day_3"
+                        android:layout_width="@dimen/food_org"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1">
+
+
+                        <RelativeLayout
+                            android:id="@+id/rl_food_day_3_1"
+                            android:layout_width="128dp"
+                            android:layout_height="128dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/circle_food_day_off">
+
+                            <com.android.fury.a30day.Font_text.Font
+                                android:id="@+id/txt_food_day_3_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="@string/food_day_10_3_3"
+                                android:textColor="@color/color30day"
+                                android:textSize="80sp" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/txt_food_day_txt_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="200dp"
+                    android:layout_marginTop="150dp"
+                    android:rotation="90"
+                    android:text="@string/food_day_About_1"
+                    android:textColor="@color/color30day"
+                    android:textSize="20dp" />
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/txt_food_day_txt_ab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginTop="150dp"
+                    android:rotation="-90"
+                    android:text="@string/food_day_About_2"
+                    android:textColor="@color/color30day"
+                    android:textSize="20dp" />
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/txt_food_day_txt_abo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="330dp"
+                    android:rotation="-90"
+                    android:text="@string/food_day_About_3"
+                    android:textColor="@color/color30day"
+                    android:textSize="20dp" />
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/txt_food_day_txt_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="@string/food_day_About_5"
+                    android:textColor="@color/color30day"
+                    android:textSize="20dp" />
+
+            </RelativeLayout>
+        </ScrollView>
+
+        <com.android.fury.a30day.Font_text.Font
+            android:id="@+id/txt_food_day_txt_abou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/food_day_About_4"
+            android:textColor="@color/color30day"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

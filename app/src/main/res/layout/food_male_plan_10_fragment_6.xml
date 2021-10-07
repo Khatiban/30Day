@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        android:layout_marginBottom="@dimen/cardMarginVertical"
+        android:layout_marginLeft="@dimen/cardMarginHorizontal"
+        android:layout_marginRight="@dimen/cardMarginHorizontal"
+        android:layout_marginTop="@dimen/cardMarginVertical"
+        app:cardPreventCornerOverlap="false"
+        app:contentPadding="0dp"
+        app:cardBackgroundColor="@color/text_color_2">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <com.android.fury.a30day.Font_text.Font
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color30day"
+            android:textSize="18dp"
+            android:id="@+id/txt_hide_food_i_cm_10_1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:text="@string/food_male_plan_10_29"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/txt_hide_food_i_cm_10_1"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/lin_food_ca">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="inch"
+                    android:textColor="@color/color30day"
+                    android:textSize="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="10dp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:hint="0.00"
+            android:padding="10dp"
+            android:textColorHighlight="@color/text_color_2"
+            android:textColorHint="@color/color30day_hide"
+            android:textColorLink="@color/text_color_2"
+            android:textColor="@color/text_color_2"
+            android:textSize="15dp"
+            android:background="@drawable/search_line2"
+            android:id="@+id/co_food_1"
+            android:inputType="numberDecimal"
+            android:digits="0123456789." />
+
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/food_male_plan_10_30"
+                    android:textColor="@color/color30day_hide"
+                    android:textSize="12dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="10dp"
+                    android:id="@+id/txt_food_m_p_co_1"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="___.__"
+                android:textColor="@color/color30day"
+                android:textSize="15dp"
+                android:layout_below="@+id/lin_food_ca"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:id="@+id/txt_food_m_p_co_2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cm"
+                android:textColor="@color/color30day"
+                android:textSize="15dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/lin_food_ca"
+                android:paddingLeft="80dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="20dp"/>
+
+
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

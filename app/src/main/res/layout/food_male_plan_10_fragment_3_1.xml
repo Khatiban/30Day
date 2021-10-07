@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        android:layout_marginBottom="@dimen/cardMarginVertical"
+        android:layout_marginLeft="@dimen/cardMarginHorizontal"
+        android:layout_marginRight="@dimen/cardMarginHorizontal"
+        android:layout_marginTop="@dimen/cardMarginVertical"
+        app:cardPreventCornerOverlap="false"
+        app:contentPadding="0dp"
+        app:cardBackgroundColor="@color/text_color_2">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:layout_alignParentLeft="true"
+                   android:layout_centerVertical="true"
+                   android:id="@+id/food_Calorie_food"
+                   android:paddingTop="10dp">
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/food_male_plan_10_food_actiy_1"
+                    android:textColor="@color/color30day"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:padding="10dp"
+                    android:textSize="14dp"
+                    />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_male_plan_10_food_time_122222"
+                android:layout_below="@+id/food_Calorie_food"
+                android:textColor="@color/color30day"
+                android:textSize="11dp"
+                android:layout_gravity="center"
+                android:paddingBottom="5dp"/>
+               </LinearLayout>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                android:layout_marginBottom="@dimen/cardMarginVertical"
+                android:layout_marginLeft="@dimen/cardMarginHorizontal"
+                android:layout_marginRight="@dimen/cardMarginHorizontal"
+                android:layout_marginTop="@dimen/cardMarginVertical"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp"
+                app:cardBackgroundColor="@color/color30day"
+                android:layout_alignParentRight="true"
+                android:layout_toLeftOf="@+id/food_Calorie_food"
+                android:layout_centerVertical="true">
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/food_male_plan_10_food_actiy_2"
+                    android:textColor="@color/text_color_2"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/food_Calorie_food_size"
+                    android:textSize="12dp"
+                    android:padding="8dp"/>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

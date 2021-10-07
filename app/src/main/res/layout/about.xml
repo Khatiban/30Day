@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_about"
+    tools:context=".menu_view.about">
+
+    <include layout="@layout/st_bar"
+        android:id="@+id/statos_bar"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="42.5dp"
+        android:src="@drawable/fury"
+        android:layout_below="@+id/statos_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/back_2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/about_back"
+        android:layout_below="@+id/statos_bar"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:paddingBottom="75dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="4dp">
+
+    <com.android.fury.a30day.Font_text.Font
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_progrmmer"
+        android:textColor="@color/text_about"
+        android:textSize="19sp"/></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp">
+
+        <com.android.fury.a30day.Font_text.Font
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_disain1"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/text_about"
+            android:textSize="20sp"
+            android:id="@+id/disain_1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_disain2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/text_about"
+        android:textSize="20sp"
+        android:id="@+id/disain_2"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <com.android.fury.a30day.Font_text.Font
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_disain3"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/text_about"
+        android:textSize="20sp"
+        android:id="@+id/disain_3"/>
+
+    <com.android.fury.a30day.Font_text.Font
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_disain4"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/text_about"
+        android:textSize="20sp"
+        android:id="@+id/disain_4"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp">
+    <com.android.fury.a30day.Font_text.Font
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_music_1"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/text_about"
+        android:textSize="20sp"
+        android:id="@+id/music_about_1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_disain2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/text_about"
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:id="@+id/music_about_2"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <com.android.fury.a30day.Font_text.Font
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_music_2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/text_about"
+        android:textSize="14dp"
+        android:id="@+id/music_about_3"/>
+
+    <com.android.fury.a30day.Font_text.Font
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_music_5"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:textColor="@color/text_about"
+        android:textSize="15sp"
+        android:id="@+id/music_about_4"/>
+
+    <com.android.fury.a30day.Font_text.Font
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_music_4"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:textColor="@color/text_about"
+        android:textSize="14sp"
+        android:id="@+id/music_about_5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <com.android.fury.a30day.Font_text.Font
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_music_3"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/text_about"
+        android:textSize="17sp"
+        android:id="@+id/music_about_6"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_music_4_1"
+                android:layout_marginLeft="15dp"
+
+                android:textColor="@color/text_about"
+                android:textSize="17sp"
+                android:id="@+id/music_about_4_1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignBottom="@+id/groupfury"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:rv_type="doubleRipple"
+            android:gravity="center"
+            app:rv_zoom="true">
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/about_inestagram"
+            android:id="@+id/about_inestagram" />
+        </com.andexert.library.RippleView>
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            app:rv_type="doubleRipple"
+            android:gravity="center"
+            app:rv_zoom="true">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/about_email"
+            android:id="@+id/about_email"
+            android:layout_marginLeft="10dp"/>
+        </com.andexert.library.RippleView>
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more4"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:rv_type="doubleRipple"
+            android:gravity="center"
+            app:rv_zoom="true">
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:background="@drawable/about_tel"
+            android:id="@+id/about_tel"
+            android:layout_marginLeft="10dp"/>
+        </com.andexert.library.RippleView>
+
+    </LinearLayout>
+
+    <com.android.fury.a30day.Font_text.Font
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:text="@string/about_group1"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/text_about"
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:id="@+id/groupfury"/>
+
+    <com.android.fury.a30day.Font_text.Font
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:text="@string/about_version"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/text_about"
+        android:textSize="15sp"
+        android:padding="1dp"
+        android:id="@+id/version"/>
+
+    <com.android.fury.a30day.Font_text.Font
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_copyRight"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/background_start_1_fury"
+        android:textSize="20sp"
+        android:id="@+id/copyright"/>
+
+
+    </RelativeLayout>

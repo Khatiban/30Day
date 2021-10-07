@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:customParam="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/rl_suport"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    customParam:context=".Suport.Suport_me">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sc_suport">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_cardview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            app:cardBackgroundColor="@color/black_transparent"
+            app:cardCornerRadius="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/suport_ti"
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center|top"
+                    android:gravity="center"/>
+
+
+                <com.android.fury.a30day.Suport.MaterialTextField
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    app:mtf_cardCollapsedHeight="2dp"
+                    app:mtf_image="@drawable/suport_phone"
+                    app:mtf_animationDuration="1000"
+                    app:mtf_labelColor="@color/text_color_2"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    app:mtf_openKeyboardOnFocus="true">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/suport_name_m"
+                        android:textColor="#333"
+                        android:maxLines="1"
+                        android:inputType="phone"
+                        android:id="@+id/s_phone"
+                        android:textColorHint="#666"
+                        android:textSize="15sp"
+                        android:digits="0123456789" />
+
+                </com.android.fury.a30day.Suport.MaterialTextField>
+
+
+                <com.android.fury.a30day.Suport.MaterialTextField
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    app:mtf_cardCollapsedHeight="2dp"
+                    app:mtf_image="@drawable/suport_message"
+                    app:mtf_animationDuration="1000"
+                    app:mtf_labelColor="@color/text_color_2"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/email_m"
+                    app:mtf_openKeyboardOnFocus="true">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/suport_name_e"
+                        android:textColor="#333"
+                        android:maxLines="1"
+                        android:id="@+id/s_email"
+                        android:inputType="textEmailAddress"
+                        android:textColorHint="#666"
+                        android:textSize="15sp"/>
+
+                </com.android.fury.a30day.Suport.MaterialTextField>
+
+                <com.android.fury.a30day.Suport.MaterialTextField
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    app:mtf_cardCollapsedHeight="2dp"
+                    app:mtf_image="@drawable/suport_user"
+                    app:mtf_animationDuration="1000"
+                    app:mtf_labelColor="@color/text_color_2"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    app:mtf_openKeyboardOnFocus="true">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/suport_name_n"
+                        android:textColor="#333"
+                        android:maxLines="1"
+                        android:id="@+id/s_name"
+                        android:inputType="textPersonName"
+                        android:textColorHint="#666"
+                        android:textSize="15sp" />
+
+                </com.android.fury.a30day.Suport.MaterialTextField>
+
+                <com.android.fury.a30day.Suport.MaterialTextField
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    app:mtf_cardCollapsedHeight="2dp"
+                    app:mtf_image="@drawable/suport_speech"
+                    app:mtf_animationDuration="1000"
+                    app:mtf_labelColor="@color/text_color_2"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="20dp"
+                    app:mtf_openKeyboardOnFocus="true">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/suport_name_p"
+                        android:textColor="#333"
+                        android:maxLines="5"
+                        android:id="@+id/payam"
+                        android:inputType="textShortMessage"
+                        android:textColorHint="#666"
+                        android:textSize="15sp" />
+
+                </com.android.fury.a30day.Suport.MaterialTextField>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_below="@+id/cv_cardview"
+            android:id="@+id/btn_send"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"
+            app:cardBackgroundColor="@color/color30day"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="15dp">
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/suport_send"
+                android:textColor="@color/text_color_2"
+                />
+
+        </android.support.v7.widget.CardView>
+
+        <com.android.fury.a30day.Loading.BernoullisProgressView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            customParam:duration="1000"
+            customParam:hasHole="false"
+            customParam:lineColor="@color/text_color_2"
+            customParam:lineLength="0.6"
+            customParam:lineLengthChangeable="true"
+            customParam:maxLineLength="0.8"
+            customParam:minLineLength="0.4"
+            customParam:sizeMultiplier="1"
+            customParam:strokeWidth="5dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_below="@+id/cv_cardview"
+            android:id="@+id/progress_support"
+            android:visibility="gone"/>
+
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

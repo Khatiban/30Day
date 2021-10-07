@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="@dimen/cardMarginHorizontal"
+        android:layout_marginRight="@dimen/cardMarginHorizontal"
+        android:layout_marginBottom="2dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardBackgroundColor="@color/text_color_2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/food_male_plan_10_food_actiy_1"
+                    android:textColor="@color/color30day"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:padding="10dp"
+                    android:textSize="18dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/card_view3"
+                    android:id="@+id/txt_food_activity_1"/>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                android:layout_marginBottom="@dimen/cardMarginVertical"
+                android:layout_marginLeft="@dimen/cardMarginHorizontal"
+                android:layout_marginRight="@dimen/cardMarginHorizontal"
+                android:layout_marginTop="@dimen/cardMarginVertical"
+                app:cardPreventCornerOverlap="false"
+                app:contentPadding="0dp"
+                app:cardBackgroundColor="@color/color30day"
+                android:layout_toLeftOf="@+id/food_Calorie_food"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1343"
+                    android:textColor="@color/text_color_2"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/txt_food_activity_2"
+                    android:textSize="16sp"
+                    android:padding="8dp"
+                    android:layout_alignParentRight="true"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/text_color_2"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/txt_food_activity_2"
+                    android:text="@string/food_male_plan_10_food_time_1222222"
+                    android:paddingLeft="8dp" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

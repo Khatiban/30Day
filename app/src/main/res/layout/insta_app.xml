@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_relax"
+    android:id="@+id/rl_insta_app">
+
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:text="@string/instagram"
+    android:gravity="center"
+    android:textSize="25sp"
+    android:textColor="@color/background_sport"
+    android:id="@+id/instagram"
+    android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/unnamed"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/instagram"
+        android:id="@+id/im_instagram"
+        android:layout_marginBottom="20dp"/>
+
+    <com.android.fury.a30day.Font_text.Font
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/background_sport"
+        android:textSize="15dp"
+        android:id="@+id/instagram_2"
+        android:layout_below="@+id/im_instagram"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instagram_2"
+        android:layout_above="@+id/alekyha_12"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp"
+            android:layout_gravity="center"
+            app:cardPreventCornerOverlap="false"
+            app:cardBackgroundColor="@color/color30day_hide2"
+            android:id="@+id/text_follow">
+
+        <com.android.fury.a30day.Font_text.Font
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="+ Follow"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="@color/background_sport"/>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/alekyha_12"
+        android:orientation="horizontal"/>
+
+</RelativeLayout>

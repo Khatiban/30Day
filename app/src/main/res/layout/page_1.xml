@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hashor">
+
+    <include
+        android:id="@+id/clude_1"
+        layout="@layout/tolbar_start" ></include>
+
+    <com.andexert.library.RippleView
+        android:id="@+id/more07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:rv_color="@color/text_color_1"
+        app:rv_zoom="true"
+        rv_centered="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" >
+
+    <TextView
+        android:layout_width="@dimen/circle"
+        android:layout_height="@dimen/circle"
+        android:id="@+id/btn_start1"
+        android:background="@drawable/circle"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.android.fury.a30day.Font_text.Font
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_start_1"
+        android:textSize="40dp"
+        android:paddingTop="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/text_color_1"
+        android:id="@+id/start_text" />
+    </com.andexert.library.RippleView>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+
+        <SlidingDrawer
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/slide_1"
+            android:handle="@+id/btn_guide_1"
+            android:content="@+id/text_guide"
+            android:gravity="center_horizontal">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/btn_guide_1"
+        android:text="راهنما"
+        android:textSize="20dp"
+        android:textColor="@color/background_start_1_fury"
+        android:background="@drawable/guide" />
+
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_guide"
+                android:padding="25dp"
+                android:textColor="@color/color30day"
+                android:scrollbars="vertical"
+                android:textSize="18dp"
+                android:text="@string/text_guide_2" />
+        </SlidingDrawer>
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/shodw_sport_me_start2"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

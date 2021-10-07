@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_sport_v"
+    tools:context=".sport.sport_v">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1:00"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="8dp"
+        android:textSize="25dp"
+        android:textColor="@color/color30day_hide"
+        android:typeface="serif"
+        android:id="@+id/txt_sport_v_time"/>
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:src="@drawable/back_2"
+        android:id="@+id/btn_sport_v_back"
+        android:layout_marginLeft="5dp"/>
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:src="@drawable/back_2"
+        android:id="@+id/btn_sport_v_back2"
+        android:layout_marginLeft="5dp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingRight="5dp"
+        android:src="@drawable/battery_50"
+        android:id="@+id/batery"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/txt_sport_v_time"
+        android:orientation="horizontal"
+        android:id="@+id/cv_al_1">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:layout_gravity="left|center_vertical"
+            app:cardBackgroundColor="@color/text_color_2"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="left|center_vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="left|center_vertical"
+                    app:cardBackgroundColor="@color/text_color_2"
+                    app:cardCornerRadius="5dp"
+                    android:id="@+id/im_sport_v_time_1">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/text_color_2"
+                    app:cardCornerRadius="5dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:id="@+id/im_sport_v_time_13">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="left|center_vertical">
+
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:id="@+id/im_sport_v_time_hid"/>
+
+                <ImageView
+                    android:layout_width="2dp"
+                    android:layout_height="10dp"
+                    android:src="@color/text_color_3"
+                    android:layout_gravity="center"
+                    android:id="@+id/im_sport_v_time_2"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:src="@color/text_color_2"
+                    android:layout_gravity="center"
+                    android:id="@+id/im_sport_v_time_3"/>
+
+                <ImageView
+                    android:layout_width="2dp"
+                    android:layout_height="10dp"
+                    android:src="@color/text_color_3"
+                    android:layout_gravity="center"
+                    android:id="@+id/im_sport_v_time_4"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:src="@color/text_color_2"
+                    android:layout_gravity="center"
+                    android:id="@+id/im_sport_v_time_5"/>
+
+                <ImageView
+                    android:layout_width="2dp"
+                    android:layout_height="10dp"
+                    android:src="@color/text_color_3"
+                    android:layout_gravity="center"
+                    android:id="@+id/im_sport_v_time_6"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:src="@color/text_color_2"
+                    android:layout_gravity="center"
+                    android:id="@+id/im_sport_v_time_7"/>
+
+                <ImageView
+                    android:layout_width="2dp"
+                    android:layout_height="10dp"
+                    android:src="@color/text_color_3"
+                    android:layout_gravity="center"
+                    android:id="@+id/im_sport_v_time_8"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:id="@+id/im_sport_v_time_9"/>
+
+                <ImageView
+                    android:layout_width="2dp"
+                    android:layout_height="10dp"
+                    android:src="@color/text_color_3"
+                    android:layout_gravity="center"
+                    android:id="@+id/im_sport_v_time_10"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:id="@+id/im_sport_v_time_11"/>
+
+                <ImageView
+                    android:layout_width="2dp"
+                    android:layout_height="10dp"
+                    android:src="@color/text_color_3"
+                    android:layout_gravity="center"
+                    android:id="@+id/im_sport_v_time_12"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:id="@+id/im_sport_v_time_hid2"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+    <com.android.fury.a30day.Font_text.Font
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cv_al_1"
+        android:textSize="15sp"
+        android:textColor="@color/color30day_hide2"
+        android:text="DJ -"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/txt_sport_dj"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/cv_al_1"
+        android:src="@drawable/volume_high"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:padding="5dp"
+        android:id="@+id/btn_volume_sport"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/cv_al_1"
+        android:src="@drawable/volume_high"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:padding="5dp"
+        android:id="@+id/btn_volume_sport2"
+        android:visibility="invisible"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cv_al_1"
+        android:layout_above="@+id/btn_stop_resume_sport"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/im_sports_1" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:src="@drawable/wb"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:enabled="false"
+        android:src="@drawable/btn_stop_sport"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/btn_stop_resume_sport"/>
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/btn_stop_sport"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/btn_stop_resume_sport2"
+        android:visibility="invisible"
+        />
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="@color/color30day"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="100dp"
+        android:visibility="gone"
+        android:id="@+id/card_view_hp">
+
+
+
+
+
+        <com.android.fury.a30day.Font_text.Font
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/text_color_1"
+            android:textSize="15dp"
+            android:text="@string/sport_day_headphone"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:drawableLeft="@drawable/headphones"
+            android:layout_marginLeft="5dp"/>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>

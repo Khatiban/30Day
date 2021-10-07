@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@color/color30day"
+android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ssss">
+
+        <include
+            android:id="@+id/clude_30"
+            layout="@layout/tolbar_start_2" ></include>
+
+        <include layout="@layout/st_bar"
+            android:id="@+id/statos_bar"/>
+
+        <com.android.fury.a30day.Font_text.Font
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color_1"
+            android:id="@+id/colery_1"
+            android:textSize="15dp"
+            android:layout_below="@+id/statos_bar"
+            android:layout_marginTop="10dp"
+            android:text="1852"/>
+
+        <com.android.fury.a30day.Font_text.Font
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_color_1"
+            android:text="@string/food_Calorie_you"
+            android:textSize="15dp"
+            android:layout_below="@+id/colery_1"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/color30day"
+        android:layout_below="@+id/ssss"/>
+
+<com.astuetz.PagerSlidingTabStrip
+
+    android:id="@+id/tabs"
+    app:pstsShouldExpand="true"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    app:pstsUnderlineColor="@color/color30day"
+    app:pstsUnderlineHeight="5dp"
+    app:pstsTabBackground="@color/color30day"
+    app:pstsIndicatorColor="@color/text_color_2"
+    app:pstsDividerColor="@color/color30day"
+    android:background="@color/color30day"
+    app:pstsTabTextSize="16dp"
+    app:pstsTabTextColor="@color/text_color_2"
+    android:layout_below="@+id/ssss"/>
+
+<android.support.v4.view.ViewPager
+    android:id="@+id/view_pager"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_sport"
+    android:layout_below="@+id/tabs">
+</android.support.v4.view.ViewPager>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/shodw_sport_me_start2"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

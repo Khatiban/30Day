@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customParam="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:background="@color/color30day"
+    android:gravity="center_vertical|center">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@mipmap/a30_day_shadow"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="150dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center|bottom"
+            android:layout_marginBottom="10dp">
+
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_30day_start"
+                android:id="@+id/textView2"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+                android:scaleType="fitXY"
+                android:textColor="@color/text_color_1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="25dp"/>
+
+            <!--<ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/loading_start2"/>
+            -->
+
+
+            <com.android.fury.a30day.Loading.BernoullisProgressView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                customParam:duration="1000"
+                customParam:hasHole="false"
+                customParam:lineColor="@color/text_color_2"
+                customParam:lineLength="0.6"
+                customParam:lineLengthChangeable="true"
+                customParam:maxLineLength="0.8"
+                customParam:minLineLength="0.4"
+                customParam:sizeMultiplier="1"
+                customParam:strokeWidth="5dp"/>
+
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loading"
+                android:id="@+id/textView1"
+                android:textColor="@color/text_color_1"
+                android:textSize="25dp"
+                android:padding="6dp"
+                android:scaleType="fitXY"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

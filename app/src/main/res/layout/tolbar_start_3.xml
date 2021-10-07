@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tolbar2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color30day">
+
+    <include layout="@layout/st_bar"
+        android:id="@+id/statos_bar"/>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tolbar5"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/background_sport"
+        android:layout_below="@+id/statos_bar">
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more014"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            rv_color="@color/color30day"
+            rv_zoom="true"
+            app:rv_centered="true"
+            app:rv_type="doubleRipple">
+            <ImageView
+                android:id="@+id/btn_menu_5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/back_2"
+                android:padding="18dp" />
+        </com.andexert.library.RippleView>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/cardMarginVertical"
+        android:layout_marginLeft="@dimen/cardMarginHorizontal"
+        android:layout_marginRight="@dimen/cardMarginHorizontal"
+        android:layout_marginTop="@dimen/cardMarginVertical"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:contentPadding="0dp"
+        app:cardBackgroundColor="@color/text_color_2">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_gravity="center_horizontal">
+
+<com.android.fury.a30day.Font_text.Font
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/txt_male_plan_10"
+    android:textColor="@color/color30day"
+    android:textSize="22dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"
+    android:text="@string/food_male_plan_10"/>
+
+          <com.andexert.library.RippleView
+              android:id="@+id/more1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              rv_color="@color/color30day"
+              android:layout_below="@+id/txt_male_plan_10"
+              app:rv_type="doubleRipple">
+              <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/card_view_meal_1"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="@dimen/cardMarginVertical"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:layout_marginTop="@dimen/cardMarginVertical"
+                  app:cardCornerRadius="5dp"
+                  app:cardElevation="2dp"
+                  app:cardPreventCornerOverlap="false"
+                  app:contentPadding="0dp"
+                  app:cardBackgroundColor="@color/background_sport">
+
+
+                  <RelativeLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:id="@+id/btn_meal_1">
+
+                      <com.android.fury.a30day.Font_text.Font
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/text_meal_name_1"
+                          android:textColor="@color/color30day"
+                          android:textSize="14sp"
+                          android:layout_centerHorizontal="true"
+                          android:gravity="center"
+                          android:layout_marginTop="5dp"
+                          android:id="@+id/txt_male_plan_day_1"/>
+
+                      <Button
+                          android:layout_width="100dp"
+                          android:layout_height="40dp"
+                          android:text="@string/text_meal_txt_daryaft"
+                          android:layout_marginTop="5dp"
+                          android:layout_marginBottom="5dp"
+                          android:layout_centerHorizontal="true"
+                          android:background="@drawable/background_meal_day"
+                          android:textColor="@color/text_color_2"
+                          android:layout_below="@+id/txt_male_plan_day_1"
+                          android:id="@+id/btn_start_meal_day_1"/>
+
+                      <Button
+                          android:layout_width="50dp"
+                          android:layout_height="50dp"
+                          android:layout_centerVertical="true"
+                          android:layout_marginLeft="10dp"
+                          android:layout_alignParentLeft="true"
+                          android:text="1"
+                          android:textSize="25sp"
+                          android:textColor="@color/text_color_2"
+                          android:background="@drawable/backg_adad_meal_day"
+                          android:id="@+id/img_meal_1"/>
+
+                  </RelativeLayout>
+
+              </android.support.v7.widget.CardView>
+          </com.andexert.library.RippleView>
+
+
+          <com.andexert.library.RippleView
+              android:id="@+id/more2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              rv_color="@color/color30day"
+              android:layout_below="@+id/more1"
+              app:rv_type="doubleRipple">
+              <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/card_view_meal_2"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="@dimen/cardMarginVertical"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:layout_marginTop="@dimen/cardMarginVertical"
+                  app:cardCornerRadius="5dp"
+                  app:cardElevation="2dp"
+                  app:cardPreventCornerOverlap="false"
+                  app:contentPadding="0dp"
+                  app:cardBackgroundColor="@color/background_sport">
+
+
+                  <RelativeLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:id="@+id/btn_meal_2">
+
+                      <com.android.fury.a30day.Font_text.Font
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/text_meal_name_2"
+                          android:textColor="@color/color30day"
+                          android:textSize="14sp"
+                          android:layout_centerHorizontal="true"
+                          android:gravity="center"
+                          android:layout_marginTop="5dp"
+                          android:id="@+id/txt_male_plan_day_2"/>
+
+                      <Button
+                          android:layout_width="100dp"
+                          android:layout_height="40dp"
+                          android:text="@string/text_meal_txt_daryaft"
+                          android:layout_marginTop="5dp"
+                          android:layout_marginBottom="5dp"
+                          android:layout_centerHorizontal="true"
+                          android:background="@drawable/background_meal_day"
+                          android:textColor="@color/text_color_2"
+                          android:layout_below="@+id/txt_male_plan_day_2"
+                          android:id="@+id/btn_start_meal_day_2"/>
+
+                      <Button
+                          android:layout_width="50dp"
+                          android:layout_height="50dp"
+                          android:layout_centerVertical="true"
+                          android:layout_marginLeft="10dp"
+                          android:layout_alignParentLeft="true"
+                          android:text="2"
+                          android:textSize="25sp"
+                          android:textColor="@color/text_color_2"
+                          android:background="@drawable/backg_adad_meal_day"
+                          android:id="@+id/img_meal_2"/>
+
+                  </RelativeLayout>
+
+              </android.support.v7.widget.CardView>
+          </com.andexert.library.RippleView>
+
+
+          <com.andexert.library.RippleView
+              android:id="@+id/more3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              rv_color="@color/color30day"
+              android:layout_below="@+id/more2"
+              app:rv_type="doubleRipple">
+              <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/card_view_meal_3"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="@dimen/cardMarginVertical"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:layout_marginTop="@dimen/cardMarginVertical"
+                  app:cardCornerRadius="5dp"
+                  app:cardElevation="2dp"
+                  app:cardPreventCornerOverlap="false"
+                  app:contentPadding="0dp"
+                  app:cardBackgroundColor="@color/background_sport">
+
+
+                  <RelativeLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:id="@+id/btn_meal_3">
+
+                      <com.android.fury.a30day.Font_text.Font
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/text_meal_name_3"
+                          android:textColor="@color/color30day"
+                          android:textSize="14sp"
+                          android:layout_centerHorizontal="true"
+                          android:gravity="center"
+                          android:layout_marginTop="5dp"
+                          android:id="@+id/txt_male_plan_day_3"/>
+
+                      <Button
+                          android:layout_width="100dp"
+                          android:layout_height="40dp"
+                          android:text="@string/text_meal_txt_daryaft"
+                          android:layout_marginTop="5dp"
+                          android:layout_marginBottom="5dp"
+                          android:layout_centerHorizontal="true"
+                          android:background="@drawable/background_meal_day"
+                          android:textColor="@color/text_color_2"
+                          android:layout_below="@+id/txt_male_plan_day_3"
+                          android:id="@+id/btn_start_meal_day_3"/>
+
+                      <Button
+                          android:layout_width="50dp"
+                          android:layout_height="50dp"
+                          android:layout_centerVertical="true"
+                          android:layout_marginLeft="10dp"
+                          android:layout_alignParentLeft="true"
+                          android:text="3"
+                          android:textSize="25sp"
+                          android:textColor="@color/text_color_2"
+                          android:background="@drawable/backg_adad_meal_day"
+                          android:id="@+id/img_meal_3"/>
+
+                  </RelativeLayout>
+
+              </android.support.v7.widget.CardView>
+          </com.andexert.library.RippleView>
+
+
+
+
+          <com.andexert.library.RippleView
+              android:id="@+id/more4"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              rv_color="@color/color30day"
+              android:layout_below="@+id/more3"
+              app:rv_type="doubleRipple">
+              <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/card_view_meal_4"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="@dimen/cardMarginVertical"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:layout_marginTop="@dimen/cardMarginVertical"
+                  app:cardCornerRadius="5dp"
+                  app:cardElevation="2dp"
+                  app:cardPreventCornerOverlap="false"
+                  app:contentPadding="0dp"
+                  app:cardBackgroundColor="@color/background_sport">
+
+
+                  <RelativeLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:id="@+id/btn_meal_4">
+
+                      <com.android.fury.a30day.Font_text.Font
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/text_meal_name_4"
+                          android:textColor="@color/color30day"
+                          android:textSize="14sp"
+                          android:layout_centerHorizontal="true"
+                          android:gravity="center"
+                          android:layout_marginTop="5dp"
+                          android:id="@+id/txt_male_plan_day_4"/>
+
+                      <Button
+                          android:layout_width="100dp"
+                          android:layout_height="40dp"
+                          android:text="@string/text_meal_txt_daryaft"
+                          android:layout_marginTop="5dp"
+                          android:layout_marginBottom="5dp"
+                          android:layout_centerHorizontal="true"
+                          android:background="@drawable/background_meal_day"
+                          android:textColor="@color/text_color_2"
+                          android:layout_below="@+id/txt_male_plan_day_4"
+                          android:id="@+id/btn_start_meal_day_4"/>
+
+                      <Button
+                          android:layout_width="50dp"
+                          android:layout_height="50dp"
+                          android:layout_centerVertical="true"
+                          android:layout_marginLeft="10dp"
+                          android:layout_alignParentLeft="true"
+                          android:text="4"
+                          android:textSize="25sp"
+                          android:textColor="@color/text_color_2"
+                          android:background="@drawable/backg_adad_meal_day"
+                          android:id="@+id/img_meal_4"/>
+
+                  </RelativeLayout>
+
+              </android.support.v7.widget.CardView>
+          </com.andexert.library.RippleView>
+
+
+          <com.andexert.library.RippleView
+              android:id="@+id/more5"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              rv_color="@color/color30day"
+              android:layout_below="@+id/more4"
+              app:rv_type="doubleRipple">
+              <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/card_view_meal_5"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="@dimen/cardMarginVertical"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:layout_marginTop="@dimen/cardMarginVertical"
+                  app:cardCornerRadius="5dp"
+                  app:cardElevation="2dp"
+                  app:cardPreventCornerOverlap="false"
+                  app:contentPadding="0dp"
+                  app:cardBackgroundColor="@color/background_sport">
+
+
+                  <RelativeLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:id="@+id/btn_meal_5">
+
+                      <com.android.fury.a30day.Font_text.Font
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/text_meal_name_5"
+                          android:textColor="@color/color30day"
+                          android:textSize="14sp"
+                          android:layout_centerHorizontal="true"
+                          android:gravity="center"
+                          android:layout_marginTop="5dp"
+                          android:id="@+id/txt_male_plan_day_5"/>
+
+                      <Button
+                          android:layout_width="100dp"
+                          android:layout_height="40dp"
+                          android:text="@string/text_meal_txt_daryaft"
+                          android:layout_marginTop="5dp"
+                          android:layout_marginBottom="5dp"
+                          android:layout_centerHorizontal="true"
+                          android:background="@drawable/background_meal_day"
+                          android:textColor="@color/text_color_2"
+                          android:layout_below="@+id/txt_male_plan_day_5"
+                          android:id="@+id/btn_start_meal_day_5"/>
+
+                      <Button
+                          android:layout_width="50dp"
+                          android:layout_height="50dp"
+                          android:layout_centerVertical="true"
+                          android:layout_marginLeft="10dp"
+                          android:layout_alignParentLeft="true"
+                          android:text="5"
+                          android:textSize="25sp"
+                          android:textColor="@color/text_color_2"
+                          android:background="@drawable/backg_adad_meal_day"
+                          android:id="@+id/img_meal_5"/>
+
+                  </RelativeLayout>
+
+              </android.support.v7.widget.CardView>
+          </com.andexert.library.RippleView>
+
+
+          <com.andexert.library.RippleView
+              android:id="@+id/more6"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              rv_color="@color/color30day"
+              android:layout_below="@+id/more5"
+              app:rv_type="doubleRipple">
+              <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/card_view_meal_6"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="@dimen/cardMarginVertical"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:layout_marginTop="@dimen/cardMarginVertical"
+                  app:cardCornerRadius="5dp"
+                  app:cardElevation="2dp"
+                  app:cardPreventCornerOverlap="false"
+                  app:contentPadding="0dp"
+                  app:cardBackgroundColor="@color/background_sport">
+
+
+                  <RelativeLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:id="@+id/btn_meal_6">
+
+                      <com.android.fury.a30day.Font_text.Font
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/text_meal_name_6"
+                          android:textColor="@color/color30day"
+                          android:textSize="14sp"
+                          android:layout_centerHorizontal="true"
+                          android:gravity="center"
+                          android:layout_marginTop="5dp"
+                          android:id="@+id/txt_male_plan_day_6"/>
+
+                      <Button
+                          android:layout_width="100dp"
+                          android:layout_height="40dp"
+                          android:text="@string/text_meal_txt_daryaft"
+                          android:layout_marginTop="5dp"
+                          android:layout_centerHorizontal="true"
+                          android:layout_marginBottom="5dp"
+                          android:background="@drawable/background_meal_day"
+                          android:textColor="@color/text_color_2"
+                          android:layout_below="@+id/txt_male_plan_day_6"
+                          android:id="@+id/btn_start_meal_day_6"/>
+
+                      <Button
+                          android:layout_width="50dp"
+                          android:layout_height="50dp"
+                          android:layout_centerVertical="true"
+                          android:layout_marginLeft="10dp"
+                          android:layout_alignParentLeft="true"
+                          android:text="6"
+                          android:textSize="25sp"
+                          android:textColor="@color/text_color_2"
+                          android:background="@drawable/backg_adad_meal_day"
+                          android:id="@+id/img_meal_6"/>
+
+                  </RelativeLayout>
+
+              </android.support.v7.widget.CardView>
+          </com.andexert.library.RippleView>
+
+
+          <com.andexert.library.RippleView
+              android:id="@+id/more7"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              rv_color="@color/color30day"
+              android:layout_below="@+id/more6"
+              app:rv_type="doubleRipple">
+              <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/card_view_meal_7"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="@dimen/cardMarginVertical"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:layout_marginTop="@dimen/cardMarginVertical"
+                  app:cardCornerRadius="5dp"
+                  app:cardElevation="2dp"
+                  app:cardPreventCornerOverlap="false"
+                  app:contentPadding="0dp"
+                  app:cardBackgroundColor="@color/background_sport">
+
+
+                  <RelativeLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:id="@+id/btn_meal_7">
+
+                      <com.android.fury.a30day.Font_text.Font
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/text_meal_name_7"
+                          android:textColor="@color/color30day"
+                          android:textSize="14sp"
+                          android:layout_centerHorizontal="true"
+                          android:gravity="center"
+                          android:layout_marginTop="5dp"
+                          android:id="@+id/txt_male_plan_day_7"/>
+
+                      <Button
+                          android:layout_width="100dp"
+                          android:layout_height="40dp"
+                          android:text="@string/text_meal_txt_daryaft"
+                          android:layout_marginTop="5dp"
+                          android:layout_marginBottom="5dp"
+                          android:layout_centerHorizontal="true"
+                          android:background="@drawable/background_meal_day"
+                          android:textColor="@color/text_color_2"
+                          android:layout_below="@+id/txt_male_plan_day_7"
+                          android:id="@+id/btn_start_meal_day_7"/>
+
+                      <Button
+                          android:layout_width="50dp"
+                          android:layout_height="50dp"
+                          android:layout_centerVertical="true"
+                          android:layout_marginLeft="10dp"
+                          android:layout_alignParentLeft="true"
+                          android:text="7"
+                          android:textSize="25sp"
+                          android:textColor="@color/text_color_2"
+                          android:background="@drawable/backg_adad_meal_day"
+                          android:id="@+id/img_meal_7"/>
+
+                  </RelativeLayout>
+
+              </android.support.v7.widget.CardView>
+          </com.andexert.library.RippleView>
+
+
+          <com.andexert.library.RippleView
+              android:id="@+id/more8"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              rv_color="@color/color30day"
+              android:layout_below="@+id/more7"
+              app:rv_type="doubleRipple">
+              <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/card_view_meal_8"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="@dimen/cardMarginVertical"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:layout_marginTop="@dimen/cardMarginVertical"
+                  app:cardCornerRadius="5dp"
+                  app:cardElevation="2dp"
+                  app:cardPreventCornerOverlap="false"
+                  app:contentPadding="0dp"
+                  app:cardBackgroundColor="@color/background_sport">
+
+
+                  <RelativeLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:id="@+id/btn_meal_8">
+
+                      <com.android.fury.a30day.Font_text.Font
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/text_meal_name_8"
+                          android:textColor="@color/color30day"
+                          android:textSize="14sp"
+                          android:layout_centerHorizontal="true"
+                          android:gravity="center"
+                          android:layout_marginTop="5dp"
+                          android:id="@+id/txt_male_plan_day_8"/>
+
+                      <Button
+                          android:layout_width="100dp"
+                          android:layout_height="40dp"
+                          android:text="@string/text_meal_txt_daryaft"
+                          android:layout_marginTop="5dp"
+                          android:layout_marginBottom="5dp"
+                          android:layout_centerHorizontal="true"
+                          android:background="@drawable/background_meal_day"
+                          android:textColor="@color/text_color_2"
+                          android:layout_below="@+id/txt_male_plan_day_8"
+                          android:id="@+id/btn_start_meal_day_8"/>
+
+                      <Button
+                          android:layout_width="50dp"
+                          android:layout_height="50dp"
+                          android:layout_centerVertical="true"
+                          android:layout_marginLeft="10dp"
+                          android:layout_alignParentLeft="true"
+                          android:text="8"
+                          android:textSize="25sp"
+                          android:textColor="@color/text_color_2"
+                          android:background="@drawable/backg_adad_meal_day"
+                          android:id="@+id/img_meal_8"/>
+
+                  </RelativeLayout>
+
+              </android.support.v7.widget.CardView>
+          </com.andexert.library.RippleView>
+
+
+          <com.andexert.library.RippleView
+              android:id="@+id/more9"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              rv_color="@color/color30day"
+              android:layout_below="@+id/more8"
+              app:rv_type="doubleRipple">
+              <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/card_view_meal_9"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="@dimen/cardMarginVertical"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:layout_marginTop="@dimen/cardMarginVertical"
+                  app:cardCornerRadius="5dp"
+                  app:cardElevation="2dp"
+                  app:cardPreventCornerOverlap="false"
+                  app:contentPadding="0dp"
+                  app:cardBackgroundColor="@color/background_sport">
+
+
+                  <RelativeLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:id="@+id/btn_meal_9">
+
+                      <com.android.fury.a30day.Font_text.Font
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/text_meal_name_9"
+                          android:textColor="@color/color30day"
+                          android:textSize="14sp"
+                          android:layout_centerHorizontal="true"
+                          android:gravity="center"
+                          android:layout_marginTop="5dp"
+                          android:id="@+id/txt_male_plan_day_9"/>
+
+                      <Button
+                          android:layout_width="100dp"
+                          android:layout_height="40dp"
+                          android:text="@string/text_meal_txt_daryaft"
+                          android:layout_marginTop="5dp"
+                          android:layout_marginBottom="5dp"
+                          android:layout_centerHorizontal="true"
+                          android:background="@drawable/background_meal_day"
+                          android:textColor="@color/text_color_2"
+                          android:layout_below="@+id/txt_male_plan_day_9"
+                          android:id="@+id/btn_start_meal_day_9"/>
+
+                      <Button
+                          android:layout_width="50dp"
+                          android:layout_height="50dp"
+                          android:layout_centerVertical="true"
+                          android:layout_marginLeft="10dp"
+                          android:layout_alignParentLeft="true"
+                          android:text="9"
+                          android:textSize="25sp"
+                          android:textColor="@color/text_color_2"
+                          android:background="@drawable/backg_adad_meal_day"
+                          android:id="@+id/img_meal_9"/>
+
+                  </RelativeLayout>
+
+              </android.support.v7.widget.CardView>
+          </com.andexert.library.RippleView>
+
+
+
+          <com.andexert.library.RippleView
+              android:id="@+id/more10"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              rv_color="@color/color30day"
+              android:layout_below="@+id/more9"
+              app:rv_type="doubleRipple">
+              <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/card_view_meal_10"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="@dimen/cardMarginVertical"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:layout_marginTop="@dimen/cardMarginVertical"
+                  app:cardCornerRadius="5dp"
+                  app:cardElevation="0dp"
+                  app:cardPreventCornerOverlap="false"
+                  app:contentPadding="2dp"
+                  app:cardBackgroundColor="@color/background_sport">
+
+
+                  <RelativeLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:id="@+id/btn_meal_10">
+
+                      <com.android.fury.a30day.Font_text.Font
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/text_meal_name_10"
+                          android:textColor="@color/color30day"
+                          android:textSize="14sp"
+                          android:layout_centerHorizontal="true"
+                          android:gravity="center"
+                          android:layout_marginTop="5dp"
+                          android:id="@+id/txt_male_plan_day_10"/>
+
+                      <Button
+                          android:layout_width="100dp"
+                          android:layout_height="40dp"
+                          android:text="@string/text_meal_txt_daryaft"
+                          android:layout_marginTop="5dp"
+                          android:layout_marginBottom="5dp"
+                          android:layout_centerHorizontal="true"
+                          android:background="@drawable/background_meal_day"
+                          android:textColor="@color/text_color_2"
+                          android:layout_below="@+id/txt_male_plan_day_10"
+                          android:id="@+id/btn_start_meal_day_10"/>
+
+                      <Button
+                          android:layout_width="50dp"
+                          android:layout_height="50dp"
+                          android:layout_centerVertical="true"
+                          android:layout_marginLeft="10dp"
+                          android:layout_alignParentLeft="true"
+                          android:text="10"
+                          android:textSize="20sp"
+                          android:textColor="@color/text_color_2"
+                          android:background="@drawable/backg_adad_meal_day"
+                          android:id="@+id/img_meal_10"/>
+
+                  </RelativeLayout>
+
+              </android.support.v7.widget.CardView>
+          </com.andexert.library.RippleView>
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_male_plan_10_23"
+                android:textColor="@color/background_sport"
+                android:textSize="18dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/more10"
+                android:layout_marginTop="10dp"
+                android:text="oooooooooooooooooo"
+                android:layout_marginBottom="20dp"/>
+
+      </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+</FrameLayout>

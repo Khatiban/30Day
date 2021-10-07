@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/text_color_2"
+    android:id="@+id/alakiha_26"
+    tools:context=".Search">
+
+    <include layout="@layout/st_bar_red"
+        android:id="@+id/statos_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_sport"
+        android:id="@+id/alakiha_25"
+        android:layout_below="@+id/statos_bar">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/color30day"
+            android:id="@+id/btn_serch2">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="40dp"
+                android:layout_alignParentLeft="true"
+                android:hint="@string/food_search"
+                android:padding="8dp"
+                android:textColorHighlight="@color/text_color_2"
+                android:textColorHint="@color/text_color_search_hint"
+                android:textColorLink="@color/text_color_2"
+                android:textColor="@color/text_color_2"
+                android:textSize="15dp"
+                android:background="@drawable/search_line"
+                android:id="@+id/search_food_2"
+                android:layout_centerVertical="true"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"/>
+
+            <ImageView
+                android:id="@+id/imageView_search_2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_alignRight="@+id/search_food_2"
+
+                android:src="@drawable/search_1" />
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_search_text"
+                android:textColor="@color/text_color_2"
+                android:textSize="16dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/txt_ser"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingRight="5dp"
+            android:orientation="horizontal"
+            android:background="@color/color30day">
+
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/food_name_serch"
+                android:gravity="center"
+                android:textColor="@color/text_color_2"
+                android:id="@+id/food_name_serch"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+
+
+        </RelativeLayout>
+
+
+        <ListView
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@android:id/list"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@color/color30day"
+            android:textFilterEnabled="true"
+            android:dividerHeight="1dp">
+
+        </ListView>
+
+
+        </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/shodw_sport_me_start2"
+        android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>

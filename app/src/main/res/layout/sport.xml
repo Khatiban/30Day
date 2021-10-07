@@ -1,0 +1,1870 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_sport"
+    tools:context=".sport.sport">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView_sport"
+        android:fadeScrollbars="true"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/clude_1"
+                layout="@layout/tolbar_start" />
+
+            <include layout="@layout/st_bar"
+                android:id="@+id/statos_bar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/text_sport"
+                android:textSize="20dp"
+                android:textColor="@color/text_color_2"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/statos_bar"/>
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more014"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@+id/clude_1"
+                rv_color="@color/background_sport"
+                app:rv_type="doubleRipple">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/clude_1"
+                app:cardBackgroundColor="@color/color30day"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                android:id="@+id/com_son_sport">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/text_sport_me_name"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:textColor="@color/background_sport"
+                        android:id="@+id/ssss"/>
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/text_sport_me_name_mane"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:textColor="@color/background_sport"
+                        android:id="@+id/comingso"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            </com.andexert.library.RippleView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/sport_rl_1"
+                android:layout_below="@+id/more014">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btn_1_sport_star"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btn_1_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="23dp"
+                    android:textSize="45sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_1"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="35dp"
+                    android:paddingLeft="35dp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_1_day"
+                    android:textSize="13dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/sport_rl_2"
+                android:layout_below="@+id/sport_rl_1">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btn_2_sport_star"/>
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/lock_day"
+                    android:id="@+id/btn_2_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btn_2_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="23dp"
+                    android:textSize="45sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_2"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="35dp"
+                    android:paddingLeft="39dp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_2_day"
+                    android:textSize="12sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/sport_rl_3"
+                android:layout_below="@+id/sport_rl_2">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btn_3_sport_star"/>
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/lock_day"
+                    android:id="@+id/btn_3_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btn_3_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:textSize="45sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_3"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="37dp"
+                    android:paddingLeft="39dp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_3_day"
+                    android:textSize="12sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/sport_rl_3"
+                android:id="@+id/sport_rl_4">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btn_4_sport_star"/>
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/lock_day"
+                    android:id="@+id/btn_4_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btn_4_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_4"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="23dp"
+                    android:textSize="45sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_4"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="35dp"
+                    android:paddingLeft="39dp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_4_day"
+                    android:textSize="12sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/sport_rl_4"
+                android:id="@+id/sport_rl_5">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btn_5_sport_star"/>
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/lock_day"
+                    android:id="@+id/btn_5_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btn_5_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_5"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="106dp"
+                    android:layout_marginTop="25dp"
+                    android:textSize="45sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_5"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="46dp"
+                    android:layout_marginTop="37dp"
+                    android:paddingLeft="39dp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_5_day"
+                    android:textSize="12sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="450dp"
+                android:id="@+id/sport_rl_6">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_6_sport_star"/>
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="85dp"
+                    android:src="@drawable/lock_day"
+                    android:id="@+id/btn_6_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_6_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_6"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="42dp"
+                    android:layout_marginTop="100dp"
+                    android:textSize="45sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_6"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="23dp"
+                    android:layout_marginTop="110dp"
+                    android:paddingLeft="39dp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_6_day"
+                    android:textSize="12sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="530dp"
+                android:id="@+id/sport_rl_7">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_7_sport_star"/>
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginTop="85dp"
+                    android:src="@drawable/lock_day"
+                    android:id="@+id/btn_7_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_7_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_7"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginTop="100dp"
+                    android:textSize="45sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_7"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="84dp"
+                    android:layout_marginTop="120dp"
+                    android:paddingLeft="35dp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_7_day"
+                    android:textSize="12sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="630dp"
+                android:id="@+id/sport_rl_8">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_8_sport_star"/>
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:src="@drawable/lock_day"
+                    android:id="@+id/btn_8_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_8_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_8"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="98dp"
+                    android:textSize="45sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_8"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="110dp"
+                    android:paddingLeft="39dp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_8_day"
+                    android:textSize="12sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="700dp"
+                android:id="@+id/sport_rl_9">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginLeft="90dp"
+                    android:id="@+id/btn_9_sport_star"/>
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="85dp"
+                    android:src="@drawable/lock_day"
+                    android:layout_marginLeft="90dp"
+                    android:id="@+id/btn_9_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginLeft="90dp"
+                    android:id="@+id/btn_9_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_9"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="116dp"
+                    android:layout_marginTop="98dp"
+                    android:textSize="45sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_9"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="110dp"
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/text_color_2"
+                    android:layout_marginLeft="56dp"
+                    android:id="@+id/txt_sport_9_day"
+                    android:textSize="12sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="830dp"
+                android:id="@+id/sport_rl_10">
+
+
+                <ImageView
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_10_sport_star"/>
+
+                <ImageView
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_10_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_10"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="110dp"
+                    android:textSize="55sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_10"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="98dp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_10_day"
+                    android:textSize="15sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="960dp"
+                android:id="@+id/sport_rl_11">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginLeft="90dp"
+                    android:id="@+id/btn_11_sport_star"/>
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="85dp"
+                    android:src="@drawable/lock_day"
+                    android:layout_marginLeft="90dp"
+                    android:id="@+id/btn_11_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginLeft="90dp"
+                    android:id="@+id/btn_11_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_11"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="116dp"
+                    android:layout_marginTop="98dp"
+                    android:textSize="45sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_11"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="110dp"
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/text_color_2"
+                    android:layout_marginLeft="56dp"
+                    android:id="@+id/txt_sport_11_day"
+                    android:textSize="12sp"/>
+
+            </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1030dp"
+            android:id="@+id/sport_rl_12">
+
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/circle_day_star"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="85dp"
+                android:id="@+id/btn_12_sport_star"/>
+
+            <ImageView
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="85dp"
+                android:src="@drawable/lock_day"
+                android:id="@+id/btn_12_sport_lock"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/circle_day"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="85dp"
+                android:id="@+id/btn_12_sport"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sport_12"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="103dp"
+                android:textSize="38sp"
+                android:textColor="@color/text_color_2"
+                android:id="@+id/txt_sport_12"/>
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sport_DAY"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="118dp"
+                android:paddingLeft="42dp"
+                android:textColor="@color/text_color_2"
+                android:id="@+id/txt_sport_12_day"
+                android:textSize="10sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1110dp"
+            android:id="@+id/sport_rl_13">
+
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/circle_day_star"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="85dp"
+                android:id="@+id/btn_13_sport_star"/>
+
+            <ImageView
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="85dp"
+                android:src="@drawable/lock_day"
+                android:id="@+id/btn_13_sport_lock"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/circle_day"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="85dp"
+                android:id="@+id/btn_13_sport"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sport_13"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="100dp"
+                android:layout_marginTop="100dp"
+                android:textSize="45sp"
+                android:textColor="@color/text_color_2"
+                android:id="@+id/txt_sport_13"/>
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sport_DAY"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="82dp"
+                android:layout_marginTop="112dp"
+                android:paddingLeft="35dp"
+                android:textColor="@color/text_color_2"
+                android:id="@+id/txt_sport_13_day"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1180dp"
+            android:id="@+id/sport_rl_14">
+
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/circle_day_star"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="85dp"
+                android:id="@+id/btn_14_sport_star"/>
+
+            <ImageView
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="85dp"
+                android:src="@drawable/lock_day"
+                android:id="@+id/btn_14_sport_lock"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/circle_day"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="85dp"
+                android:id="@+id/btn_14_sport"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sport_14"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="42dp"
+                android:layout_marginTop="100dp"
+                android:textSize="40sp"
+                android:textColor="@color/text_color_2"
+                android:id="@+id/txt_sport_14"/>
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sport_DAY"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="23dp"
+                android:layout_marginTop="110dp"
+                android:paddingLeft="39dp"
+                android:textColor="@color/text_color_2"
+                android:id="@+id/txt_sport_14_day"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1130dp"
+            android:id="@+id/sport_rl_15">
+
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/circle_day_star"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="85dp"
+                android:id="@+id/btn_15_sport_star"/>
+
+            <ImageView
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="85dp"
+                android:src="@drawable/lock_day"
+                android:id="@+id/btn_15_sport_lock"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/circle_day"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="85dp"
+                android:id="@+id/btn_15_sport"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sport_15"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="104dp"
+                android:layout_marginTop="100dp"
+                android:textSize="45sp"
+                android:textColor="@color/text_color_2"
+                android:id="@+id/txt_sport_15"/>
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sport_DAY"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="46dp"
+                android:layout_marginTop="112dp"
+                android:paddingLeft="39dp"
+                android:textColor="@color/text_color_2"
+                android:id="@+id/txt_sport_15_day"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1190dp"
+            android:id="@+id/sport_rl_16">
+
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/circle_day_star"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="85dp"
+                android:id="@+id/btn_16_sport_star"/>
+
+            <ImageView
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="85dp"
+                android:src="@drawable/lock_day"
+                android:id="@+id/btn_16_sport_lock"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/circle_day"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="85dp"
+                android:id="@+id/btn_16_sport"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sport_16"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="102dp"
+                android:textSize="38sp"
+                android:textColor="@color/text_color_2"
+                android:id="@+id/txt_sport_16"/>
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sport_DAY"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="110dp"
+                android:paddingLeft="39dp"
+                android:textColor="@color/text_color_2"
+                android:id="@+id/txt_sport_16_day"
+                android:textSize="10sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1270dp"
+            android:id="@+id/sport_rl_17">
+
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/circle_day_star"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="85dp"
+                android:id="@+id/btn_17_sport_star"/>
+
+            <ImageView
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="85dp"
+                android:src="@drawable/lock_day"
+                android:id="@+id/btn_17_sport_lock"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/circle_day"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="85dp"
+                android:id="@+id/btn_17_sport"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sport_17"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:textSize="45sp"
+                android:textColor="@color/text_color_2"
+                android:id="@+id/txt_sport_17"/>
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sport_DAY"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="122dp"
+                android:paddingLeft="39dp"
+                android:textColor="@color/text_color_2"
+                android:id="@+id/txt_sport_17_day"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1330dp"
+                android:id="@+id/sport_rl_18">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginLeft="90dp"
+                    android:id="@+id/btn_18_sport_star"/>
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="85dp"
+                    android:src="@drawable/lock_day"
+                    android:layout_marginLeft="90dp"
+                    android:id="@+id/btn_18_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginLeft="90dp"
+                    android:id="@+id/btn_18_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_18"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="115dp"
+                    android:layout_marginTop="98dp"
+                    android:textSize="45sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_18"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="110dp"
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/text_color_2"
+                    android:layout_marginLeft="56dp"
+                    android:id="@+id/txt_sport_18_day"
+                    android:textSize="12sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1410dp"
+                android:id="@+id/sport_rl_19">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_19_sport_star"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:src="@drawable/lock_day"
+                    android:id="@+id/btn_19_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_19_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_19"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="100dp"
+                    android:textSize="40sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_19"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="130dp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_19_day"
+                    android:textSize="10sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1550dp"
+                android:id="@+id/sport_rl_20">
+
+
+                <ImageView
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_20_sport_star"/>
+
+                <ImageView
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_20_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_20"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="110dp"
+                    android:textSize="50sp"
+                    android:paddingLeft="6dp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_20"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="98dp"
+                    android:paddingLeft="5.6dp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_20_day"
+                    android:textSize="15sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1690dp"
+                android:id="@+id/sport_rl_21">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_21_sport_star"/>
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:src="@drawable/lock_day"
+                    android:id="@+id/btn_21_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_21_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_21"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="100dp"
+                    android:textSize="40sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_21"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="130dp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_21_day"
+                    android:textSize="10sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1770dp"
+                android:id="@+id/sport_rl_22">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_22_sport_star"/>
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginTop="85dp"
+                    android:src="@drawable/lock_day"
+                    android:id="@+id/btn_22_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_22_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_22"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginTop="100dp"
+                    android:textSize="38sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_22"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="82dp"
+                    android:layout_marginTop="114dp"
+                    android:paddingLeft="35dp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_22_day"
+                    android:textSize="12sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1830dp"
+                android:id="@+id/sport_rl_23">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_23_sport_star"/>
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:src="@drawable/lock_day"
+                    android:id="@+id/btn_23_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_23_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_23"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="100dp"
+                    android:textSize="40sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_23"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="132dp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_23_day"
+                    android:textSize="14sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1910dp"
+                android:id="@+id/sport_rl_24">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginLeft="90dp"
+                    android:id="@+id/btn_24_sport_star"/>
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="85dp"
+                    android:src="@drawable/lock_day"
+                    android:layout_marginLeft="90dp"
+                    android:id="@+id/btn_24_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginLeft="90dp"
+                    android:id="@+id/btn_24_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_24"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="116dp"
+                    android:layout_marginTop="102dp"
+                    android:textSize="35sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_24"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="110dp"
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/text_color_2"
+                    android:layout_marginLeft="56dp"
+                    android:id="@+id/txt_sport_24_day"
+                    android:textSize="12sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1970dp"
+                android:id="@+id/sport_rl_25">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_25_sport_star"/>
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginTop="85dp"
+                    android:src="@drawable/lock_day"
+                    android:id="@+id/btn_25_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_25_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_25"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginTop="100dp"
+                    android:textSize="40sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_25"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="82dp"
+                    android:layout_marginTop="112dp"
+                    android:paddingLeft="35dp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_25_day"
+                    android:textSize="12sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="2030dp"
+                android:id="@+id/sport_rl_26">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginLeft="90dp"
+                    android:id="@+id/btn_26_sport_star"/>
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="85dp"
+                    android:src="@drawable/lock_day"
+                    android:layout_marginLeft="90dp"
+                    android:id="@+id/btn_26_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginLeft="90dp"
+                    android:id="@+id/btn_26_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_26"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="116dp"
+                    android:layout_marginTop="102dp"
+                    android:textSize="35sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_26"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="110dp"
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/text_color_2"
+                    android:layout_marginLeft="56dp"
+                    android:id="@+id/txt_sport_26_day"
+                    android:textSize="10sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="2090dp"
+                android:id="@+id/sport_rl_27">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_27_sport_star"/>
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginTop="85dp"
+                    android:src="@drawable/lock_day"
+                    android:id="@+id/btn_27_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_27_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_27"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginTop="100dp"
+                    android:textSize="38sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_27"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="85dp"
+                    android:layout_marginTop="118dp"
+                    android:paddingLeft="38dp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_27_day"
+                    android:textSize="12sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="2170dp"
+                android:id="@+id/sport_rl_28">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginLeft="90dp"
+                    android:id="@+id/btn_28_sport_star"/>
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="85dp"
+                    android:src="@drawable/lock_day"
+                    android:layout_marginLeft="90dp"
+                    android:id="@+id/btn_28_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginLeft="90dp"
+                    android:id="@+id/btn_28_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_28"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="116dp"
+                    android:layout_marginTop="102dp"
+                    android:textSize="35sp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_28"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="112dp"
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/text_color_2"
+                    android:layout_marginLeft="56dp"
+                    android:id="@+id/txt_sport_28_day"
+                    android:textSize="12sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="2250dp"
+                android:id="@+id/sport_rl_29">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_29_sport_star"/>
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:src="@drawable/lock_day"
+                    android:id="@+id/btn_29_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_29_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_29"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="100dp"
+                    android:textSize="40sp"
+                    android:paddingLeft="4dp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_29"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="130dp"
+                    android:textColor="@color/text_color_2"
+                    android:paddingLeft="4dp"
+                    android:id="@+id/txt_sport_29_day"
+                    android:textSize="10sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="2450dp"
+                android:id="@+id/sport_rl_30"
+                android:layout_marginBottom="100dp">
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/circle_day_star"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_30_sport_star"/>
+
+                <ImageView
+                    android:layout_width="92dp"
+                    android:layout_height="92dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:src="@drawable/lock_day"
+                    android:id="@+id/btn_30_sport_lock"/>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/circle_day"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:id="@+id/btn_30_sport"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_30"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="110dp"
+                    android:textSize="58sp"
+                    android:paddingLeft="7dp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_30"/>
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sport_DAY"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="96dp"
+                    android:paddingLeft="6.6dp"
+                    android:textColor="@color/text_color_2"
+                    android:id="@+id/txt_sport_30_day"
+                    android:textSize="15sp"/>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/shodw_sport_me_start2"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

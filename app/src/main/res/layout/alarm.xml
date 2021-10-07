@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_language"
+    tools:context=".menu_view.setting_language">
+
+    <include layout="@layout/st_bar"
+        android:id="@+id/statos_bar"/>
+
+    <Button
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/setting_back"
+        android:layout_below="@+id/statos_bar"
+        android:id="@+id/btn_sit_background" />
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/lin_setting_alarm_1"
+        android:layout_below="@+id/txt_sit_title"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="30dp">
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more050"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            rv_color="@color/color30day"
+            rv_centered="true">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/im_setting_alarm_1"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/alarm_check_on" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:key="sobhane_all"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/im_setting_alarm_1"
+                android:id="@+id/checkBox_Sit_alarm_sobhane"
+                android:checked="true"
+                android:layout_centerVertical="true"
+                android:text="@string/setting_alarm_1"
+                android:textSize="20dp"
+                android:textColor="@color/text_setting" />
+
+        </com.andexert.library.RippleView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/lin_setting_alarm_2"
+        android:layout_below="@+id/lin_setting_alarm_1"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="30dp">
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more051"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            rv_color="@color/color30day"
+            rv_centered="true">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/im_setting_alarm_2"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/alarm_check_on" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:key="sobhane_all"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/im_setting_alarm_2"
+                android:id="@+id/checkBox_Sit_alarm_myanvade_1"
+                android:checked="true"
+                android:layout_centerVertical="true"
+                android:text="@string/setting_alarm_2"
+                android:textSize="20dp"
+                android:textColor="@color/text_setting" />
+
+        </com.andexert.library.RippleView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/lin_setting_alarm_3"
+        android:layout_below="@+id/lin_setting_alarm_2"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="30dp">
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more052"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            rv_color="@color/color30day"
+            rv_centered="true">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/im_setting_alarm_3"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/alarm_check_on" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:key="sobhane_all"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/im_setting_alarm_3"
+                android:id="@+id/checkBox_Sit_alarm_nahar"
+                android:checked="true"
+                android:layout_centerVertical="true"
+                android:text="@string/setting_alarm_3"
+                android:textSize="20dp"
+                android:textColor="@color/text_setting" />
+
+        </com.andexert.library.RippleView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/lin_setting_alarm_4"
+        android:layout_below="@+id/lin_setting_alarm_3"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="30dp">
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more053"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            rv_color="@color/color30day"
+            rv_centered="true">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/im_setting_alarm_4"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/alarm_check_on" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:key="sobhane_all"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/im_setting_alarm_4"
+                android:id="@+id/checkBox_Sit_alarm_myanvade_2"
+                android:checked="true"
+                android:layout_centerVertical="true"
+                android:text="@string/setting_alarm_4"
+                android:textSize="20dp"
+                android:textColor="@color/text_setting" />
+
+        </com.andexert.library.RippleView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/lin_setting_alarm_5"
+        android:layout_below="@+id/lin_setting_alarm_4"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="30dp">
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more054"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            rv_color="@color/color30day"
+            rv_centered="true">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/im_setting_alarm_5"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/alarm_check_on" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:key="sobhane_all"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/im_setting_alarm_5"
+                android:id="@+id/checkBox_Sit_alarm_sport"
+                android:checked="true"
+                android:layout_centerVertical="true"
+                android:text="@string/setting_alarm_5"
+                android:textSize="20dp"
+                android:textColor="@color/text_setting" />
+
+        </com.andexert.library.RippleView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/lin_setting_alarm_6"
+        android:layout_below="@+id/lin_setting_alarm_5"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="30dp">
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more055"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            rv_color="@color/color30day"
+            rv_centered="true">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/im_setting_alarm_6"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/alarm_check_on" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:key="sobhane_all"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/im_setting_alarm_6"
+                android:id="@+id/checkBox_Sit_alarm_sham"
+                android:checked="true"
+                android:layout_centerVertical="true"
+                android:text="@string/setting_alarm_6"
+                android:textSize="20dp"
+                android:textColor="@color/text_setting" />
+
+        </com.andexert.library.RippleView>
+
+    </RelativeLayout>
+
+    <com.android.fury.a30day.Font_text.Font
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_notification"
+        android:id="@+id/txt_sit_title"
+        android:layout_alignBottom="@+id/btn_sit_background"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="@color/text_setting"/>
+
+    <com.android.fury.a30day.Font_text.Font
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_notification_why"
+        android:id="@+id/txt_sit_why"
+        android:layout_below="@+id/lin_setting_alarm_6"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/text_setting"/>
+
+
+</RelativeLayout>

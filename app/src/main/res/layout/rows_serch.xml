@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ehsan khatiban by FURY studio
+app 30 day -->
+
+<com.android.fury.a30day.Font_text.Font
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/column_serch"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:textColor="@color/color30day"
+    android:gravity="center"
+    android:textSize="18dp"/>
+
+

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_food_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/cardMarginVertical"
+        android:layout_marginLeft="@dimen/cardMarginHorizontal"
+        android:layout_marginRight="@dimen/cardMarginHorizontal"
+        android:layout_marginTop="@dimen/cardMarginVertical"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:contentPadding="0dp"
+        app:cardBackgroundColor="@color/text_color_2">
+      
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="180dp">
+        
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="140dp"
+          android:src="@drawable/im_video_food"
+          android:scaleType="centerCrop"
+          android:id="@+id/video_play" 
+          android:layout_alignParentTop="true"/>
+        
+
+        <com.android.fury.a30day.Font_text.Font
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vide_online_1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/color30day"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/text_video_food_1"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:src="@drawable/download_red"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_above="@+id/text_video_food_2"
+            android:id="@+id/im_download_video_1"/>
+
+        <com.android.fury.a30day.Font_text.Font
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vide_online_3"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/color30day"
+            android:textSize="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/text_video_food_2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/alekyha_10"
+            android:orientation="horizontal"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/im_download_video_1"
+            android:layout_below="@+id/alekyha_10"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play_circle"
+            android:id="@+id/im_play_video"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+          <com.android.fury.a30day.Font_text.Font
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:text="@string/vide_online_2"
+              android:textColor="@color/color30day"
+              android:textSize="12sp"
+              android:layout_below="@+id/im_play_video"
+              android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+        
+      </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+</FrameLayout>

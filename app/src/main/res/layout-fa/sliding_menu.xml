@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    android:background="@drawable/bg_sliding">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/scrollview_1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="left"
+        android:layout_alignParentLeft="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="@drawable/menu_bg"
+        android:id="@+id/im_1">
+    </LinearLayout>
+
+    <com.andexert.library.RippleView
+        android:id="@+id/more07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:rv_color="@color/color30day"
+        app:rv_zoom="true"
+        rv_centered="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:id="@+id/lin_menu_sp"
+        android:gravity="left">
+
+        <com.android.fury.a30day.Font_text.Font
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/menu_sportscast"
+            android:textSize="15sp"
+            android:gravity="right|center_vertical"
+            android:textColor="@color/text_color_2"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="22dp"
+            android:background="@drawable/menu_sport"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:padding="4dp"
+            android:gravity="center_vertical|left"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    </com.andexert.library.RippleView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:orientation="horizontal"
+        android:background="@color/text_color_2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+    </LinearLayout>
+
+    <com.andexert.library.RippleView
+        android:id="@+id/more06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        rv_centered="true"
+        app:rv_color="@color/color30day"
+        app:rv_zoom="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:id="@+id/lin_menu_d"
+        android:gravity="left">
+
+        <com.android.fury.a30day.Font_text.Font
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/menu_diet"
+            android:textSize="15sp"
+            android:textColor="@color/text_color_2"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="23dp"
+            android:background="@drawable/menu_food"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center_vertical|left"
+            android:padding="4dp"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    </com.andexert.library.RippleView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:orientation="horizontal"
+        android:background="@color/text_color_2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+    </LinearLayout>
+
+    <com.andexert.library.RippleView
+        android:id="@+id/more05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        rv_centered="true"
+        app:rv_color="@color/color30day"
+        app:rv_zoom="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:id="@+id/lin_menu_dm"
+        android:gravity="left">
+
+        <com.android.fury.a30day.Font_text.Font
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/menu_download"
+            android:textSize="15sp"
+            android:textColor="@color/text_color_2"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:background="@drawable/m_down_music"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center_vertical|left"
+            android:padding="4dp"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    </com.andexert.library.RippleView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:orientation="horizontal"
+        android:background="@color/text_color_2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+    </LinearLayout>
+
+    <com.andexert.library.RippleView
+        android:id="@+id/more04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        rv_centered="true"
+        app:rv_color="@color/color30day"
+        app:rv_zoom="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:id="@+id/lin_menu_gu"
+        android:gravity="left">
+
+        <com.android.fury.a30day.Font_text.Font
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/btn_guide"
+            android:textSize="15sp"
+            android:textColor="@color/text_color_2"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/menu_help"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center_vertical|left"
+            android:padding="4dp"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    </com.andexert.library.RippleView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:orientation="horizontal"
+        android:background="@color/text_color_2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+    </LinearLayout>
+
+    <com.andexert.library.RippleView
+        android:id="@+id/more03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        rv_centered="true"
+        app:rv_color="@color/color30day"
+        app:rv_zoom="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:id="@+id/lin_menu_sit"
+        android:gravity="left">
+
+        <com.android.fury.a30day.Font_text.Font
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/menu_settings"
+            android:textSize="15sp"
+            android:textColor="@color/text_color_2"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/menu_settings"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="center_vertical"
+            android:padding="4dp"
+            android:gravity="center_vertical|left"/>
+    </LinearLayout>
+    </com.andexert.library.RippleView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:orientation="horizontal"
+        android:background="@color/text_color_2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+    </LinearLayout>
+
+    <com.andexert.library.RippleView
+        android:id="@+id/more02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        rv_centered="true"
+        app:rv_color="@color/color30day"
+        app:rv_zoom="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:id="@+id/lin_menu_ab"
+        android:gravity="left">
+
+        <com.android.fury.a30day.Font_text.Font
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/menu_about"
+            android:textSize="15sp"
+            android:textColor="@color/text_color_2"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:layout_marginRight="15dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/menu_about"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center_vertical|left"
+            android:padding="4dp"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    </com.andexert.library.RippleView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:orientation="horizontal"
+        android:background="@color/text_color_2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+    </LinearLayout>
+
+    <com.andexert.library.RippleView
+        android:id="@+id/more01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        rv_centered="true"
+        app:rv_color="@color/color30day"
+        app:rv_zoom="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:id="@+id/lin_menu_ex"
+        android:gravity="left">
+
+        <com.android.fury.a30day.Font_text.Font
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/menu_exit"
+            android:textSize="15sp"
+            android:textColor="@color/text_color_2"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:layout_marginRight="15dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/menu_power"
+            android:id="@+id/img_exit"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center_vertical|left"
+            android:padding="4dp"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    </com.andexert.library.RippleView>
+
+    </LinearLayout>
+    </ScrollView>
+    <com.android.fury.a30day.Font_text.Font
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_copyRight"
+        android:textColor="@color/color_red"
+        android:textSize="10sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/shodw_sport_me_start2"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

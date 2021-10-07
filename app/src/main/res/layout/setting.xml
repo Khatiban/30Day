@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_set"
+    tools:context=".menu_view.setting">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_centerHorizontal="true">
+
+
+
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/st_bar"
+        android:id="@+id/statos_bar"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/setting_1"
+        />
+
+    <com.android.fury.a30day.Font_text.Font
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="45dp"
+        android:layout_below="@+id/statos_bar"
+        android:textColor="@color/text_setting"/>
+
+
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="30dp"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/setting_back"
+        android:layout_below="@+id/statos_bar"
+        android:id="@+id/setting_back"/>
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/lin_setting_1"
+
+        android:layout_marginTop="230dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="30dp">
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more012"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            rv_color="@color/color30day"
+            rv_centered="true">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/im_setting_music"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/setting_music" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:key="music_all"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/im_setting_music"
+            android:id="@+id/checkBox_Sit_music"
+            android:checked="true"
+            android:layout_centerVertical="true"
+            android:text="@string/setting_music"
+            android:textSize="20dp"
+            android:textColor="@color/text_setting"/>
+
+        </com.andexert.library.RippleView>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/lin_setting_4"
+        android:layout_below="@+id/lin_setting_1"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="30dp">
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more013"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            rv_color="@color/color30day"
+            rv_centered="true">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/im_setting_sound"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/setting_volume" />
+        <android.support.v7.widget.SwitchCompat
+            android:key="music_all"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/im_setting_sound"
+            android:id="@+id/checkBox_Sit_sound"
+            android:checked="true"
+            android:text="@string/setting_sound"
+            android:textSize="20dp"
+            android:textColor="@color/text_setting"/>
+
+        </com.andexert.library.RippleView>
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/lin_setting_2"
+            android:layout_below="@+id/lin_setting_4"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="30dp">
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more014"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rv_color="@color/color30day"
+                rv_centered="true">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/im_setting_voice"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/setting_voice" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:id="@+id/checkBox_Sit_voice"
+                android:layout_toRightOf="@+id/im_setting_voice"
+                android:checked="true"
+                android:text="@string/setting_voice"
+                android:textSize="20dp"
+                android:textColor="@color/text_setting"/>
+
+            </com.andexert.library.RippleView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/lin_setting_8"
+        android:layout_below="@+id/lin_setting_2"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="30dp">
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more015"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            rv_color="@color/color30day"
+            rv_centered="true">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/im_setting_vibrates"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/setting_vibrate" />
+        <android.support.v7.widget.SwitchCompat
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/im_setting_vibrates"
+            android:id="@+id/checkBox_Sit_vibrates"
+            android:checked="true"
+            android:text="@string/setting_vibrates"
+            android:textSize="20dp"
+            android:textColor="@color/text_setting"/>
+        </com.andexert.library.RippleView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lin_setting_9"
+        android:layout_below="@+id/lin_setting_8"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="30dp">
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more0015"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            rv_color="@color/color30day"
+            rv_centered="true">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/im_setting_show_food"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/show_food" />
+            <android.support.v7.widget.SwitchCompat
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/im_setting_show_food"
+                android:id="@+id/checkBox_Sit_show_food"
+                android:checked="true"
+                android:text="@string/sit_show_food_name"
+                android:textSize="20sp"
+                android:textColor="@color/text_setting"/>
+        </com.andexert.library.RippleView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/lin_setting_3"
+        android:layout_below="@+id/lin_setting_9"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="30dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/im_setting_language"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/setting_translate" />
+        <com.android.fury.a30day.Font_text.Font
+            android:paddingTop="12dp"
+            android:layout_toRightOf="@+id/im_setting_language"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txt_sti_language"
+            android:text="@string/setting_language"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/text_setting"/>
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/imageView3"
+            android:src="@drawable/flags_e_n"
+            android:layout_alignParentRight="true"/>
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/imageView4"
+            android:src="@drawable/flag_canada"
+            android:layout_alignParentRight="true"/>
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/imageView5"
+            android:src="@drawable/flag_chinese"
+            android:layout_alignParentRight="true"/>
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/imageView6"
+            android:src="@drawable/flag_iran"
+            android:layout_alignParentRight="true"/>
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/imageView7"
+            android:src="@drawable/flags_g_r"
+            android:layout_alignParentRight="true"/>
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/imageView8"
+            android:src="@drawable/flag_usa"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/im_setting_Notificaton"
+        android:layout_below="@+id/lin_setting_3"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/alarm_notification" />
+    <com.android.fury.a30day.Font_text.Font
+        android:paddingTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_set_Notificaton"
+        android:layout_below="@+id/lin_setting_3"
+        android:layout_toRightOf="@+id/im_setting_delete"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/setting_notification"
+        android:textSize="20sp"
+        android:textColor="@color/text_setting"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_set_Notificaton2"
+        android:layout_below="@+id/lin_setting_3"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/setting_notification_2"
+        android:textSize="25sp"
+        android:textColor="@color/color30day"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/im_setting_delete"
+        android:layout_below="@+id/im_setting_Notificaton"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/setting_delete" />
+    <com.android.fury.a30day.Font_text.Font
+        android:paddingTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_set_clean_1"
+        android:layout_below="@+id/im_setting_Notificaton"
+        android:layout_toRightOf="@+id/im_setting_delete"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/setting_clear"
+        android:textSize="20sp"
+        android:textColor="@color/text_setting"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_set_clean_2"
+        android:layout_below="@+id/im_setting_Notificaton"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/setting_clear_2"
+        android:textSize="25sp"
+        android:textColor="@color/color30day"/>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/im_setting_delete"/>
+
+</RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

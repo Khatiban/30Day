@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="80dp"
+    android:layout_marginTop="80dp"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="280.0dip"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="72.0dip"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="72.0dip"
+                android:background="#4c636262" />
+
+            <ImageView
+                android:id="@+id/dialog_universal_info_image"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/why_alarm"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="45.0dip"
+            android:paddingLeft="26.0dip"
+            android:paddingRight="26.0dip"
+            android:paddingTop="22.0dip">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sc_why">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/dialog_universal_info_text_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/why_alarm_1"
+                    android:textColor="@color/background_start_1_fury"
+                    android:textSize="14.0sp" />
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/dialog_universal_info_text_2"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/why_alarm_2"
+                    android:textColor="@color/background_start_1_fury"
+                    android:textSize="14.0sp" />
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/dialog_universal_info_text_3"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/why_alarm_3"
+                    android:textColor="@color/background_start_1_fury"
+                    android:textSize="15.0sp" />
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/dialog_universal_info_text_4"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/why_alarm_4"
+                    android:textColor="@color/background_start_1_fury"
+                    android:textSize="14.0sp" />
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/dialog_universal_info_text_5"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/why_alarm_5"
+                    android:textColor="@color/background_start_1_fury"
+                    android:textSize="14.0sp" />
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/dialog_universal_info_text_6"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/why_alarm_6"
+                    android:textColor="@color/background_start_1_fury"
+                    android:textSize="14.0sp" />
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/dialog_universal_info_text_7"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/why_alarm_17"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/color30day"
+                    android:textSize="15.0sp" />
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/dialog_universal_info_text_8"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/why_alarm_7"
+                    android:textColor="@color/background_start_1_fury"
+                    android:textSize="15.0sp" />
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/dialog_universal_info_text_9"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/why_alarm_8"
+                    android:textColor="@color/background_start_1_fury"
+                    android:textSize="14.0sp" />
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/dialog_universal_info_text_10"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/why_alarm_9"
+                    android:textColor="@color/background_start_1_fury"
+                    android:textSize="15.0sp" />
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/dialog_universal_info_text_11"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/why_alarm_10"
+                    android:textColor="@color/background_start_1_fury"
+                    android:textSize="14.0sp" />
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/dialog_universal_info_text_12"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/why_alarm_11"
+                    android:textColor="@color/background_start_1_fury"
+                    android:textSize="15.0sp" />
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/dialog_universal_info_text_13"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/why_alarm_12"
+                    android:textColor="@color/background_start_1_fury"
+                    android:textSize="14.0sp" />
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/dialog_universal_info_text_14"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/why_alarm_13"
+                    android:textColor="@color/background_start_1_fury"
+                    android:textSize="14.0sp" />
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/dialog_universal_info_text_15"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/why_alarm_14"
+                    android:textColor="@color/background_start_1_fury"
+                    android:textSize="14.0sp" />
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/dialog_universal_info_text_16"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/why_alarm_15"
+                    android:textColor="@color/background_start_1_fury"
+                    android:textSize="14.0sp" />
+
+                <com.android.fury.a30day.Font_text.Font
+                    android:id="@+id/dialog_universal_info_text_17"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/why_alarm_16"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#fff4f5f5"
+                    android:textSize="15.0sp" />
+
+            </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="280.0dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_marginLeft="22.0dip"
+            android:layout_marginRight="22.0dip"
+            android:background="#fff4f5f5" />
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more055"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            rv_color="@color/color30day"
+            rv_centered="true">
+
+            <com.android.fury.a30day.Font_text.Font
+                android:id="@+id/dialog_universal_info_ok"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10.0dip"
+                android:paddingTop="10.0dip"
+                android:text="@string/ok"
+                android:textColor="@color/background_start_1_fury"
+                android:textSize="14.0sp" />
+        </com.andexert.library.RippleView>
+    </RelativeLayout>
+
+</RelativeLayout>

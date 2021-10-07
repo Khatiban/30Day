@@ -1,0 +1,1864 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu_view.music">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <com.andexert.library.RippleView
+        android:id="@+id/more014"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        rv_color="@color/color30day"
+        rv_zoom="true"
+        app:rv_type="doubleRipple">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="190dp">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/im_music_donload_1"
+            android:src="@drawable/download_music_1"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/bg_about"
+    android:layout_below="@+id/im_music_donload_1"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/im_music_donload_1"
+            android:layout_toLeftOf="@+id/im_donload_music"
+            android:layout_toRightOf="@+id/im_play_music"
+            android:background="@color/bg_about"
+            android:orientation="vertical">
+
+
+            <com.android.fury.a30day.Font_text.Font
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="music online 1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/background_sport"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/background_sport"
+                android:textSize="12sp"
+                android:text="DJ F.A.X"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color30day_dark"
+            android:text="1.19 m"
+            android:textSize="10sp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/txt_mg_music"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentBottom="true"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="52dp"
+            android:src="@drawable/download"
+            android:layout_alignParentRight="true"
+            android:id="@+id/im_donload_music"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:layout_above="@+id/txt_mg_music"/>
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/btn_volume_sport"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/im_play_music"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_above="@+id/txt_mg_music"/>
+
+
+    </RelativeLayout>
+    </com.andexert.library.RippleView>
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more015"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            rv_color="@color/color30day"
+            rv_zoom="true"
+            app:rv_type="doubleRipple"
+            android:layout_below="@+id/more014">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="190dp">
+
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/im_music_donload_2"
+                    android:src="@drawable/download_music_1"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/bg_about"
+                    android:layout_below="@+id/im_music_donload_2"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/im_music_donload_2"
+                    android:layout_toLeftOf="@+id/im_donload_music2"
+                    android:layout_toRightOf="@+id/im_play_music2"
+                    android:background="@color/bg_about"
+                    android:orientation="vertical">
+
+
+                    <com.android.fury.a30day.Font_text.Font
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="music online 2"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/background_sport"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/background_sport"
+                        android:textSize="12sp"
+                        android:text="DJ F.A.X"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"/>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color30day_dark"
+                    android:text="1.23 m"
+                    android:textSize="10sp"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/txt_mg_music2"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_alignParentBottom="true"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="52dp"
+                    android:src="@drawable/download"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/im_donload_music2"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:layout_above="@+id/txt_mg_music2"/>
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/btn_volume_sport"
+                    android:layout_alignParentLeft="true"
+                    android:id="@+id/im_play_music2"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_above="@+id/txt_mg_music2"/>
+
+
+            </RelativeLayout>
+        </com.andexert.library.RippleView>
+
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more016"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rv_color="@color/color30day"
+                rv_zoom="true"
+                app:rv_type="doubleRipple"
+                android:layout_below="@+id/more015">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:id="@+id/im_music_donload_3"
+                        android:src="@drawable/download_music_1"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/bg_about"
+                        android:layout_below="@+id/im_music_donload_3"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/im_music_donload_3"
+                        android:layout_toLeftOf="@+id/im_donload_music3"
+                        android:layout_toRightOf="@+id/im_play_music3"
+                        android:background="@color/bg_about"
+                        android:orientation="vertical">
+
+
+                        <com.android.fury.a30day.Font_text.Font
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="music online 3"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/background_sport"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textColor="@color/background_sport"
+                            android:textSize="12sp"
+                            android:text="DJ F.A.X"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day_dark"
+                        android:text="1.32 m"
+                        android:textSize="10sp"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/txt_mg_music3"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_alignParentBottom="true"/>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="52dp"
+                        android:src="@drawable/download"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/im_donload_music3"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:layout_above="@+id/txt_mg_music3"/>
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/btn_volume_sport"
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/im_play_music3"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_above="@+id/txt_mg_music3"/>
+
+
+                </RelativeLayout>
+            </com.andexert.library.RippleView>
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more017"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rv_color="@color/color30day"
+                rv_zoom="true"
+                app:rv_type="doubleRipple"
+                android:layout_below="@+id/more016">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:id="@+id/im_music_donload_4"
+                        android:src="@drawable/download_music_2"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/bg_about"
+                        android:layout_below="@+id/im_music_donload_4"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/im_music_donload_4"
+                        android:layout_toLeftOf="@+id/im_donload_music4"
+                        android:layout_toRightOf="@+id/im_play_music4"
+                        android:background="@color/bg_about"
+                        android:orientation="vertical">
+
+
+                        <com.android.fury.a30day.Font_text.Font
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="music online 4"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/background_sport"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textColor="@color/background_sport"
+                            android:textSize="12sp"
+                            android:text="DJ AL"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day_dark"
+                        android:text="0.94 m"
+                        android:textSize="10sp"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/txt_mg_music4"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_alignParentBottom="true"/>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="52dp"
+                        android:src="@drawable/download"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/im_donload_music4"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:layout_above="@+id/txt_mg_music4"/>
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/btn_volume_sport"
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/im_play_music4"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_above="@+id/txt_mg_music4"/>
+
+
+                </RelativeLayout>
+            </com.andexert.library.RippleView>
+
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more018"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rv_color="@color/color30day"
+                rv_zoom="true"
+                app:rv_type="doubleRipple"
+                android:layout_below="@+id/more017">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:id="@+id/im_music_donload_5"
+                        android:src="@drawable/download_music_2"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/bg_about"
+                        android:layout_below="@+id/im_music_donload_5"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/im_music_donload_5"
+                        android:layout_toLeftOf="@+id/im_donload_music5"
+                        android:layout_toRightOf="@+id/im_play_music5"
+                        android:background="@color/bg_about"
+                        android:orientation="vertical">
+
+
+                        <com.android.fury.a30day.Font_text.Font
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="music online 5"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/background_sport"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textColor="@color/background_sport"
+                            android:textSize="12sp"
+                            android:text="DJ AL"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day_dark"
+                        android:text="0.94 m"
+                        android:textSize="10sp"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/txt_mg_music5"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_alignParentBottom="true"/>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="52dp"
+                        android:src="@drawable/download"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/im_donload_music5"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:layout_above="@+id/txt_mg_music5"/>
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/btn_volume_sport"
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/im_play_music5"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_above="@+id/txt_mg_music5"/>
+
+
+                </RelativeLayout>
+            </com.andexert.library.RippleView>
+
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more019"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rv_color="@color/color30day"
+                rv_zoom="true"
+                app:rv_type="doubleRipple"
+                android:layout_below="@+id/more018">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:id="@+id/im_music_donload_6"
+                        android:src="@drawable/download_music_4"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/bg_about"
+                        android:layout_below="@+id/im_music_donload_6"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/im_music_donload_6"
+                        android:layout_toLeftOf="@+id/im_donload_music6"
+                        android:layout_toRightOf="@+id/im_play_music6"
+                        android:background="@color/bg_about"
+                        android:orientation="vertical">
+
+
+                        <com.android.fury.a30day.Font_text.Font
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="music online 6"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/background_sport"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textColor="@color/background_sport"
+                            android:textSize="12sp"
+                            android:text="DJ Hosein Aerial"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day_dark"
+                        android:text="0.94 m"
+                        android:textSize="10sp"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/txt_mg_music6"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_alignParentBottom="true"/>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="52dp"
+                        android:src="@drawable/download"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/im_donload_music6"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:layout_above="@+id/txt_mg_music6"/>
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/btn_volume_sport"
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/im_play_music6"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_above="@+id/txt_mg_music6"/>
+
+
+                </RelativeLayout>
+            </com.andexert.library.RippleView>
+
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more020"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rv_color="@color/color30day"
+                rv_zoom="true"
+                app:rv_type="doubleRipple"
+                android:layout_below="@+id/more019">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:id="@+id/im_music_donload_7"
+                        android:src="@drawable/download_music_3"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/bg_about"
+                        android:layout_below="@+id/im_music_donload_7"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/im_music_donload_7"
+                        android:layout_toLeftOf="@+id/im_donload_music7"
+                        android:layout_toRightOf="@+id/im_play_music7"
+                        android:background="@color/bg_about"
+                        android:orientation="vertical">
+
+
+                        <com.android.fury.a30day.Font_text.Font
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="music online 7"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/background_sport"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textColor="@color/background_sport"
+                            android:textSize="12sp"
+                            android:text="DJ DELBAR"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day_dark"
+                        android:text="0.94 m"
+                        android:textSize="10sp"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/txt_mg_music7"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_alignParentBottom="true"/>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="52dp"
+                        android:src="@drawable/download"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/im_donload_music7"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:layout_above="@+id/txt_mg_music7"/>
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/btn_volume_sport"
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/im_play_music7"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_above="@+id/txt_mg_music7"/>
+
+
+                </RelativeLayout>
+            </com.andexert.library.RippleView>
+
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more021"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rv_color="@color/color30day"
+                rv_zoom="true"
+                app:rv_type="doubleRipple"
+                android:layout_below="@+id/more020">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:id="@+id/im_music_donload_8"
+                        android:src="@drawable/download_music_5"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/bg_about"
+                        android:layout_below="@+id/im_music_donload_8"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/im_music_donload_8"
+                        android:layout_toLeftOf="@+id/im_donload_music8"
+                        android:layout_toRightOf="@+id/im_play_music8"
+                        android:background="@color/bg_about"
+                        android:orientation="vertical">
+
+
+                        <com.android.fury.a30day.Font_text.Font
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="music online 8"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/background_sport"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textColor="@color/background_sport"
+                            android:textSize="12sp"
+                            android:text="DJ RaMiN"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day_dark"
+                        android:text="0.94 m"
+                        android:textSize="10sp"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/txt_mg_music8"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_alignParentBottom="true"/>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="52dp"
+                        android:src="@drawable/download"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/im_donload_music8"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:layout_above="@+id/txt_mg_music8"/>
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/btn_volume_sport"
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/im_play_music8"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_above="@+id/txt_mg_music8"/>
+
+
+                </RelativeLayout>
+            </com.andexert.library.RippleView>
+
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more022"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rv_color="@color/color30day"
+                rv_zoom="true"
+                app:rv_type="doubleRipple"
+                android:layout_below="@+id/more021">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:id="@+id/im_music_donload_9"
+                        android:src="@drawable/download_music_1"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/bg_about"
+                        android:layout_below="@+id/im_music_donload_9"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/im_music_donload_9"
+                        android:layout_toLeftOf="@+id/im_donload_music9"
+                        android:layout_toRightOf="@+id/im_play_music9"
+                        android:background="@color/bg_about"
+                        android:orientation="vertical">
+
+
+                        <com.android.fury.a30day.Font_text.Font
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="music online 9"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/background_sport"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textColor="@color/background_sport"
+                            android:textSize="12sp"
+                            android:text="DJ F.A.X"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day_dark"
+                        android:text="1.39 m"
+                        android:textSize="10sp"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/txt_mg_music9"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_alignParentBottom="true"/>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="52dp"
+                        android:src="@drawable/download"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/im_donload_music9"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:layout_above="@+id/txt_mg_music9"/>
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/btn_volume_sport"
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/im_play_music9"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_above="@+id/txt_mg_music9"/>
+
+
+                </RelativeLayout>
+            </com.andexert.library.RippleView>
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more023"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rv_color="@color/color30day"
+                rv_zoom="true"
+                app:rv_type="doubleRipple"
+                android:layout_below="@+id/more022">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:id="@+id/im_music_donload_10"
+                        android:src="@drawable/download_music_5"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/bg_about"
+                        android:layout_below="@+id/im_music_donload_10"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/im_music_donload_10"
+                        android:layout_toLeftOf="@+id/im_donload_music10"
+                        android:layout_toRightOf="@+id/im_play_music10"
+                        android:background="@color/bg_about"
+                        android:orientation="vertical">
+
+
+                        <com.android.fury.a30day.Font_text.Font
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="music online 10"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/background_sport"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textColor="@color/background_sport"
+                            android:textSize="12sp"
+                            android:text="DJ RaMiN"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day_dark"
+                        android:text="0.94 m"
+                        android:textSize="10sp"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/txt_mg_music10"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_alignParentBottom="true"/>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="52dp"
+                        android:src="@drawable/download"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/im_donload_music10"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:layout_above="@+id/txt_mg_music10"/>
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/btn_volume_sport"
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/im_play_music10"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_above="@+id/txt_mg_music10"/>
+
+
+                </RelativeLayout>
+            </com.andexert.library.RippleView>
+
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more024"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rv_color="@color/color30day"
+                rv_zoom="true"
+                app:rv_type="doubleRipple"
+                android:layout_below="@+id/more023">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:id="@+id/im_music_donload_11"
+                        android:src="@drawable/download_music_5"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/bg_about"
+                        android:layout_below="@+id/im_music_donload_11"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/im_music_donload_11"
+                        android:layout_toLeftOf="@+id/im_donload_music11"
+                        android:layout_toRightOf="@+id/im_play_music11"
+                        android:background="@color/bg_about"
+                        android:orientation="vertical">
+
+
+                        <com.android.fury.a30day.Font_text.Font
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="music online 11"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/background_sport"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textColor="@color/background_sport"
+                            android:textSize="12sp"
+                            android:text="DJ RaMiN"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day_dark"
+                        android:text="0.92 m"
+                        android:textSize="10sp"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/txt_mg_music11"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_alignParentBottom="true"/>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="52dp"
+                        android:src="@drawable/download"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/im_donload_music11"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:layout_above="@+id/txt_mg_music11"/>
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/btn_volume_sport"
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/im_play_music11"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_above="@+id/txt_mg_music11"/>
+
+
+                </RelativeLayout>
+            </com.andexert.library.RippleView>
+
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more025"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rv_color="@color/color30day"
+                rv_zoom="true"
+                app:rv_type="doubleRipple"
+                android:layout_below="@+id/more024">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:id="@+id/im_music_donload_12"
+                        android:src="@drawable/download_music_5"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/bg_about"
+                        android:layout_below="@+id/im_music_donload_12"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/im_music_donload_12"
+                        android:layout_toLeftOf="@+id/im_donload_music12"
+                        android:layout_toRightOf="@+id/im_play_music12"
+                        android:background="@color/bg_about"
+                        android:orientation="vertical">
+
+
+                        <com.android.fury.a30day.Font_text.Font
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="music online 12"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/background_sport"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textColor="@color/background_sport"
+                            android:textSize="12sp"
+                            android:text="DJ RaMiN"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day_dark"
+                        android:text="0.94 m"
+                        android:textSize="10sp"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/txt_mg_music12"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_alignParentBottom="true"/>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="52dp"
+                        android:src="@drawable/download"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/im_donload_music12"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:layout_above="@+id/txt_mg_music12"/>
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/btn_volume_sport"
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/im_play_music12"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_above="@+id/txt_mg_music12"/>
+
+
+                </RelativeLayout>
+            </com.andexert.library.RippleView>
+
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more026"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rv_color="@color/color30day"
+                rv_zoom="true"
+                app:rv_type="doubleRipple"
+                android:layout_below="@+id/more025">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:id="@+id/im_music_donload_13"
+                        android:src="@drawable/download_music_1"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/bg_about"
+                        android:layout_below="@+id/im_music_donload_13"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/im_music_donload_13"
+                        android:layout_toLeftOf="@+id/im_donload_music13"
+                        android:layout_toRightOf="@+id/im_play_music13"
+                        android:background="@color/bg_about"
+                        android:orientation="vertical">
+
+
+                        <com.android.fury.a30day.Font_text.Font
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="music online 13"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/background_sport"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textColor="@color/background_sport"
+                            android:textSize="12sp"
+                            android:text="DJ F.A.X"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day_dark"
+                        android:text="1.23 m"
+                        android:textSize="10sp"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/txt_mg_music13"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_alignParentBottom="true"/>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="52dp"
+                        android:src="@drawable/download"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/im_donload_music13"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:layout_above="@+id/txt_mg_music13"/>
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/btn_volume_sport"
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/im_play_music13"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_above="@+id/txt_mg_music13"/>
+
+
+                </RelativeLayout>
+            </com.andexert.library.RippleView>
+
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more027"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rv_color="@color/color30day"
+                rv_zoom="true"
+                app:rv_type="doubleRipple"
+                android:layout_below="@+id/more026">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:id="@+id/im_music_donload_14"
+                        android:src="@drawable/download_music_2"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/bg_about"
+                        android:layout_below="@+id/im_music_donload_14"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/im_music_donload_14"
+                        android:layout_toLeftOf="@+id/im_donload_music14"
+                        android:layout_toRightOf="@+id/im_play_music14"
+                        android:background="@color/bg_about"
+                        android:orientation="vertical">
+
+
+                        <com.android.fury.a30day.Font_text.Font
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="music online 14"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/background_sport"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textColor="@color/background_sport"
+                            android:textSize="12sp"
+                            android:text="DJ AL"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day_dark"
+                        android:text="0.94 m"
+                        android:textSize="10sp"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/txt_mg_music14"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_alignParentBottom="true"/>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="52dp"
+                        android:src="@drawable/download"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/im_donload_music14"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:layout_above="@+id/txt_mg_music14"/>
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/btn_volume_sport"
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/im_play_music14"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_above="@+id/txt_mg_music14"/>
+
+
+                </RelativeLayout>
+            </com.andexert.library.RippleView>
+
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more028"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rv_color="@color/color30day"
+                rv_zoom="true"
+                app:rv_type="doubleRipple"
+                android:layout_below="@+id/more027">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:id="@+id/im_music_donload_15"
+                        android:src="@drawable/download_music_5"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/bg_about"
+                        android:layout_below="@+id/im_music_donload_15"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/im_music_donload_15"
+                        android:layout_toLeftOf="@+id/im_donload_music15"
+                        android:layout_toRightOf="@+id/im_play_music15"
+                        android:background="@color/bg_about"
+                        android:orientation="vertical">
+
+
+                        <com.android.fury.a30day.Font_text.Font
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="music online 15"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/background_sport"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textColor="@color/background_sport"
+                            android:textSize="12sp"
+                            android:text="DJ RaMiN"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day_dark"
+                        android:text="0.94 m"
+                        android:textSize="10sp"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/txt_mg_music15"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_alignParentBottom="true"/>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="52dp"
+                        android:src="@drawable/download"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/im_donload_music15"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:layout_above="@+id/txt_mg_music15"/>
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/btn_volume_sport"
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/im_play_music15"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_above="@+id/txt_mg_music15"/>
+
+
+                </RelativeLayout>
+            </com.andexert.library.RippleView>
+
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more029"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rv_color="@color/color30day"
+                rv_zoom="true"
+                app:rv_type="doubleRipple"
+                android:layout_below="@+id/more028">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:id="@+id/im_music_donload_16"
+                        android:src="@drawable/download_music_1"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/bg_about"
+                        android:layout_below="@+id/im_music_donload_16"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/im_music_donload_16"
+                        android:layout_toLeftOf="@+id/im_donload_music16"
+                        android:layout_toRightOf="@+id/im_play_music16"
+                        android:background="@color/bg_about"
+                        android:orientation="vertical">
+
+
+                        <com.android.fury.a30day.Font_text.Font
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="music online 16"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/background_sport"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textColor="@color/background_sport"
+                            android:textSize="12sp"
+                            android:text="DJ F.A.X"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day_dark"
+                        android:text="1.35 m"
+                        android:textSize="10sp"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/txt_mg_music16"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_alignParentBottom="true"/>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="52dp"
+                        android:src="@drawable/download"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/im_donload_music16"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:layout_above="@+id/txt_mg_music16"/>
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/btn_volume_sport"
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/im_play_music16"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_above="@+id/txt_mg_music16"/>
+
+
+                </RelativeLayout>
+            </com.andexert.library.RippleView>
+
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more030"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rv_color="@color/color30day"
+                rv_zoom="true"
+                app:rv_type="doubleRipple"
+                android:layout_below="@+id/more029">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:id="@+id/im_music_donload_17"
+                        android:src="@drawable/download_music_1"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/bg_about"
+                        android:layout_below="@+id/im_music_donload_17"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/im_music_donload_17"
+                        android:layout_toLeftOf="@+id/im_donload_music17"
+                        android:layout_toRightOf="@+id/im_play_music17"
+                        android:background="@color/bg_about"
+                        android:orientation="vertical">
+
+
+                        <com.android.fury.a30day.Font_text.Font
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="music online 17"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/background_sport"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textColor="@color/background_sport"
+                            android:textSize="12sp"
+                            android:text="DJ F.A.X"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day_dark"
+                        android:text="1.23 m"
+                        android:textSize="10sp"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/txt_mg_music17"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_alignParentBottom="true"/>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="52dp"
+                        android:src="@drawable/download"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/im_donload_music17"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:layout_above="@+id/txt_mg_music17"/>
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/btn_volume_sport"
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/im_play_music17"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_above="@+id/txt_mg_music17"/>
+
+
+                </RelativeLayout>
+            </com.andexert.library.RippleView>
+
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more031"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                rv_color="@color/color30day"
+                rv_zoom="true"
+                app:rv_type="doubleRipple"
+                android:layout_below="@+id/more030">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:id="@+id/im_music_donload_18"
+                        android:src="@drawable/download_music_2"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/bg_about"
+                        android:layout_below="@+id/im_music_donload_18"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/im_music_donload_18"
+                        android:layout_toLeftOf="@+id/im_donload_music18"
+                        android:layout_toRightOf="@+id/im_play_music18"
+                        android:background="@color/bg_about"
+                        android:orientation="vertical">
+
+
+                        <com.android.fury.a30day.Font_text.Font
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="music online 18"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="@color/background_sport"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textColor="@color/background_sport"
+                            android:textSize="12sp"
+                            android:text="DJ AL"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/color30day_dark"
+                        android:text="0.94 m"
+                        android:textSize="10sp"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/txt_mg_music18"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_alignParentBottom="true"/>
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="52dp"
+                        android:src="@drawable/download"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/im_donload_music18"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:layout_above="@+id/txt_mg_music18"/>
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/btn_volume_sport"
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/im_play_music18"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_above="@+id/txt_mg_music18"/>
+
+
+                </RelativeLayout>
+            </com.andexert.library.RippleView>
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/shodw_sport_me_start2"
+        android:layout_gravity="bottom"/>
+
+</LinearLayout>
